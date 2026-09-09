@@ -1,0 +1,3014 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7" lang="ru" dir="ltr"><![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8" lang="ru" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" lang="ru" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="ru" dir="ltr"><!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/node/975" />
+<link rel="shortlink" href="/node/975" />
+<link rel="alternate" type="application/rss+xml" title="Comments for &quot;Использование генетических алгоритмов для решения изобретательских задач&quot;" href="https://www.metodolog.ru/crss/node/975" />
+<link rel="shortcut icon" href="https://www.metodolog.ru/sites/default/files/favicon.gif" type="image/gif" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Использование генетических алгоритмов для решения изобретательских задач | Методолог</title>
+<style type="text/css" media="all">
+@import url("https://www.metodolog.ru/modules/system/system.base.css?rs6e6q");
+@import url("https://www.metodolog.ru/modules/system/system.menus.css?rs6e6q");
+@import url("https://www.metodolog.ru/modules/system/system.messages.css?rs6e6q");
+@import url("https://www.metodolog.ru/modules/system/system.theme.css?rs6e6q");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.metodolog.ru/modules/aggregator/aggregator.css?rs6e6q");
+@import url("https://www.metodolog.ru/modules/comment/comment.css?rs6e6q");
+@import url("https://www.metodolog.ru/modules/field/theme/field.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/all/modules/google_cse/google_cse.css?rs6e6q");
+@import url("https://www.metodolog.ru/modules/node/node.css?rs6e6q");
+@import url("https://www.metodolog.ru/modules/poll/poll.css?rs6e6q");
+@import url("https://www.metodolog.ru/modules/search/search.css?rs6e6q");
+@import url("https://www.metodolog.ru/modules/user/user.css?rs6e6q");
+@import url("https://www.metodolog.ru/modules/forum/forum.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/all/modules/views/css/views.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/all/modules/ckeditor/css/ckeditor.css?rs6e6q");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.metodolog.ru/sites/all/modules/ctools/css/ctools.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/all/modules/panels/css/panels.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/all/modules/quote/quote.css?rs6e6q");
+</style>
+<style type="text/css" media="screen">
+@import url("https://www.metodolog.ru/sites/all/themes/adaptivetheme/adaptivetheme/at_core/css/at.settings.style.headings.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/all/themes/adaptivetheme/adaptivetheme/at_core/css/at.settings.style.image.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/all/themes/adaptivetheme/adaptivetheme/at_core/css/at.layout.css?rs6e6q");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.metodolog.ru/sites/default/files/color/pixture_reloaded-d62604de/colors.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/all/themes/pixture_reloaded/css/pixture_reloaded.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/all/themes/pixture_reloaded/css/pixture_reloaded.settings.style.css?rs6e6q");
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.metodolog.ru/sites/default/files/adaptivetheme/pixture_reloaded_files/pixture_reloaded.responsive.layout.css?rs6e6q" media="only screen" />
+<style type="text/css" media="screen">
+@import url("https://www.metodolog.ru/sites/default/files/adaptivetheme/pixture_reloaded_files/pixture_reloaded.fonts.css?rs6e6q");
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.metodolog.ru/sites/all/themes/pixture_reloaded/css/responsive.smartphone.portrait.css?rs6e6q" media="only screen and (max-width:320px)" />
+<link type="text/css" rel="stylesheet" href="https://www.metodolog.ru/sites/all/themes/pixture_reloaded/css/responsive.smartphone.landscape.css?rs6e6q" media="only screen and (min-width:321px) and (max-width:480px)" />
+<link type="text/css" rel="stylesheet" href="https://www.metodolog.ru/sites/all/themes/pixture_reloaded/css/responsive.tablet.portrait.css?rs6e6q" media="only screen and (min-width:481px) and (max-width:768px)" />
+<link type="text/css" rel="stylesheet" href="https://www.metodolog.ru/sites/all/themes/pixture_reloaded/css/responsive.tablet.landscape.css?rs6e6q" media="only screen and (min-width:769px) and (max-width:1024px)" />
+<link type="text/css" rel="stylesheet" href="https://www.metodolog.ru/sites/all/themes/pixture_reloaded/css/responsive.desktop.css?rs6e6q" media="only screen and (min-width:1025px)" />
+
+<!--[if lt IE 9]>
+<style type="text/css" media="screen">
+@import url("https://www.metodolog.ru/sites/default/files/adaptivetheme/pixture_reloaded_files/pixture_reloaded.lt-ie9.layout.css?rs6e6q");
+</style>
+<![endif]-->
+<style type="text/css" media="all">
+@import url("https://www.metodolog.ru/sites/default/files/css_injector/css_injector_1.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/default/files/css_injector/css_injector_2.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/default/files/css_injector/css_injector_3.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/default/files/css_injector/css_injector_4.css?rs6e6q");
+@import url("https://www.metodolog.ru/sites/default/files/css_injector/css_injector_6.css?rs6e6q");
+</style>
+<script type="text/javascript" src="https://www.metodolog.ru/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://www.metodolog.ru/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://www.metodolog.ru/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://www.metodolog.ru/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.metodolog.ru/misc/drupal.js?rs6e6q"></script>
+<script type="text/javascript" src="https://www.metodolog.ru/sites/all/modules/google_cse/google_cse.js?rs6e6q"></script>
+<script type="text/javascript" src="https://www.metodolog.ru/sites/default/files/languages/ru_BfZn-hGxJ6ZgvyWQAQgFmOtS0XHRisKAH9LaWB-eY9A.js?rs6e6q"></script>
+<script type="text/javascript" src="https://www.metodolog.ru/sites/all/modules/quote/quote.js?rs6e6q"></script>
+<script type="text/javascript" src="https://www.metodolog.ru/sites/all/modules/google_analytics/googleanalytics.js?rs6e6q"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-4195893-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"pixture_reloaded","theme_token":"az3t9ROgX4XRZEJzlh9VK4UFgmYrAH2iZHcahDZCGG4","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"public:\/\/languages\/ru_BfZn-hGxJ6ZgvyWQAQgFmOtS0XHRisKAH9LaWB-eY9A.js":1,"sites\/all\/modules\/quote\/quote.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/quote\/quote.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/at_core\/css\/at.settings.style.headings.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/at_core\/css\/at.settings.style.image.css":1,"sites\/all\/themes\/adaptivetheme\/adaptivetheme\/at_core\/css\/at.layout.css":1,"sites\/all\/themes\/pixture_reloaded\/color\/colors.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/pixture_reloaded.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/pixture_reloaded.settings.style.css":1,"public:\/\/adaptivetheme\/pixture_reloaded_files\/pixture_reloaded.responsive.layout.css":1,"public:\/\/adaptivetheme\/pixture_reloaded_files\/pixture_reloaded.fonts.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/responsive.smartphone.portrait.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/responsive.smartphone.landscape.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/responsive.tablet.portrait.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/responsive.tablet.landscape.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/responsive.desktop.css":1,"public:\/\/adaptivetheme\/pixture_reloaded_files\/pixture_reloaded.lt-ie9.layout.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"public:\/\/css_injector\/css_injector_2.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_4.css":1,"public:\/\/css_injector\/css_injector_6.css":1}},"googleCSE":{"cx":"000908601390473310717:elilirqc6hc","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":1},"quote_nest":2,"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/search\/google":true,"\/node\/975":true,"\/node\/975?destination=node\/975":true},"adaptivetheme":{"pixture_reloaded":{"layout_settings":{"bigscreen":"three-col-grail","tablet_landscape":"three-col-grail","tablet_portrait":"one-col-vert","smalltouch_landscape":"one-col-vert","smalltouch_portrait":"one-col-stack"},"media_query_settings":{"bigscreen":"only screen and (min-width:1025px)","tablet_landscape":"only screen and (min-width:769px) and (max-width:1024px)","tablet_portrait":"only screen and (min-width:481px) and (max-width:768px)","smalltouch_landscape":"only screen and (min-width:321px) and (max-width:480px)","smalltouch_portrait":"only screen and (max-width:320px)"}}}});
+//--><!]]>
+</script>
+<!--[if lt IE 9]>
+<script src="https://www.metodolog.ru/sites/all/themes/adaptivetheme/adaptivetheme/at_core/scripts/html5.js?rs6e6q"></script>
+<![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-975 node-type-story atr-7.x-3.x atv-7.x-3.1 lang-ru site-name-методолог section-node color-scheme-custom pixture-reloaded bs-d bb-n mb-dd mbp-l rc-0">
+  <div id="skip-link" class="nocontent">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="texture-overlay">
+  <div id="page" class="container page snc-n snw-n sna-l sns-n ssc-n ssw-n ssa-l sss-n btc-n btw-b bta-l bts-n ntc-n ntw-b nta-l nts-n ctc-n ctw-b cta-l cts-n ptc-n ptw-b pta-l pts-n">
+
+    <header  id="header" class="clearfix" role="banner">
+      <div class="header-inner clearfix">
+
+                  <!-- start: Branding -->
+          <div  id="branding" class="branding-elements clearfix">
+
+            
+                          <!-- start: Site name and Slogan hgroup -->
+              <div  class="h-group" id="name-and-slogan">
+
+                                  <h1 id="site-name"><a href="/" title="Home page">Методолог</a></h1>
+                
+                                  <p  id="site-slogan">Сайт посвящен изобретательским задачам и методам их решения.</p>
+                
+              </div><!-- /end #name-and-slogan -->
+            
+          </div><!-- /end #branding -->
+        
+        <div class="region region-header"><div class="region-inner clearfix"><div id="block-search-form" class="block block-search no-title odd first last block-count-1 block-region-header block-form"  role="search"><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><form class="google-cse" action="/node/975" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Форма поиска</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Поиск </label>
+ <input title="Введите слова, которые вы хотите искать." type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Поиск" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-svN1dtg_HCbgjrvV-i0fedZgde1Ow-pMdDlxdpb8Zy0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form></div>
+  </div></div></div></div>
+      </div>
+
+    </header> <!-- /header -->
+
+    <div id="menu-bar" class="nav clearfix"><nav id="block-system-main-menu" class="block block-system block-menu menu-wrapper menu-bar-wrapper clearfix odd first block-count-2 block-region-menu-bar block-main-menu"  role="navigation">  
+      <h2 class="element-invisible block-title">Main menu</h2>
+  
+  <ul class="menu clearfix"><li class="first leaf menu-depth-1 menu-item-111"><a href="/" title="Главная страница">Главная</a></li><li class="leaf menu-depth-1 menu-item-61"><a href="/forum" title="Список всех форумов">Форумы</a></li><li class="leaf menu-depth-1 menu-item-300"><a href="http://www.metodolog.ru/index-old.html" title="">Старый сайт</a></li><li class="last leaf menu-depth-1 menu-item-491"><a href="http://www.metodolog.ru/triz-journal/index.html" title="TRIZ Journal archive">TRIZ Journal</a></li></ul>
+  </nav><nav id="block-menu-secondary-menu" class="block block-menu menu-wrapper menu-bar-wrapper clearfix even last block-count-3 block-region-menu-bar block-secondary-menu"  role="navigation">  
+      <h2 class="element-invisible block-title">Secondary menu</h2>
+  
+  <ul class="menu clearfix"><li class="first leaf menu-depth-1 menu-item-109"><a href="/node/128" title="Сайты с близкой тематикой">Ссылки</a></li><li class="leaf menu-depth-1 menu-item-490"><a href="/contact" title="Написать письмо">Контакты</a></li><li class="last leaf menu-depth-1 menu-item-110"><a href="/node/127" title="О сайте">О сайте</a></li></ul>
+  </nav></div>
+    <!-- Messages and Help -->
+        <div class="region region-help"><div class="region-inner clearfix"><div id="block-views-announcements-block-block-1" class="block block-views no-title odd first last block-count-4 block-region-help block-announcements-block-block-1" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div class="view view-announcements-block view-id-announcements_block view-display-id-block_1 view-dom-id-e8d154a501818e498aec80d9fb1d9492">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr  class="row-1 row-first row-last">
+                  <td  class="col-1 col-first">
+              
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/2269">[20/03/2026]  2026 год - семьдесят лет первой работе по ТРИЗ</a></span>  </div>          </td>
+                  <td  class="col-2">
+              
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/2242">[23/04/2022]  Закрытое ТРИЗ сообщество стало доступным для внешних участников</a></span>  </div>          </td>
+                  <td  class="col-3">
+              
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/2237">[03/10/2021]  Выявление границ применимости инструментов ТРИЗ - рабочая встреча 3 декабря 2021</a></span>  </div>          </td>
+                  <td  class="col-4 col-last">
+              
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/2204">[17/11/2020]  Александр Тимофеевич Кынин</a></span>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+  </div></div></div></div>
+    <!-- Breadcrumbs -->
+    <div id="breadcrumb" class="clearfix"><nav class="breadcrumb-wrapper clearfix" role="navigation" aria-labelledby="breadcrumb-label"><h2 id="breadcrumb-label" class="element-invisible">You are here</h2><ol id="crumbs" class="clearfix"><li class="crumb crumb-first"><a href="/">Главная</a></li></ol></nav></div>
+    
+    <!-- Three column 3x33 Gpanel -->
+    
+    <div id="columns">
+      <div class="columns-inner clearfix">
+
+        <div id="content-column">
+          <div class="content-inner">
+
+            
+            <section id="main-content" role="main">
+
+                                            <header  id="main-content-header" class="clearfix">
+
+                                      <h1 id="page-title">Использование генетических алгоритмов для решения изобретательских задач</h1>
+                  
+                  
+                </header>
+                            
+                              <div id="content">
+                  <div id="block-system-main" class="block block-system no-title odd first last block-count-5 block-region-content block-main" >  
+  
+  <article id="node-975" class="node node-story node-promoted article odd node-full ia-n clearfix" role="article">
+  
+  
+      <footer class="submitted">
+            <p class="author-datetime">Submitted by <span class="username">content manager</span> on <time datetime="2011-04-29T08:08:05+0400">пт, 29/04/2011 - 08:08</time></p>
+    </footer>
+  
+  <div class="node-content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p class="rteright">
+<p>&nbsp; <strong>А.Б. БУШУЕВ</strong></p>
+</p>
+<p><h4 class="rteright">
+	&nbsp;Национальный исследовательский университет</h4>
+<h4 class="rteright">
+	&nbsp;информационных технологий, механики и оптики</h4>
+<h4 class="rteright">
+	&nbsp;Санкт-Петербургский государственный университет<br />
+	&nbsp;информационных технологий, механики и оптики</h4>
+<h1 class="rteright">
+	<em>&nbsp;кафедра систем управления и информатики</em></h1>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;Решение изобретательской задачи рассматривается как эволюция свойств ее математической модели, построенной на основе аппарата генетических алгоритмов и системы кинематических величин Р. Бартини.</p>
+<p>
+	<strong>Введение</strong></p>
+<p>
+	&nbsp;Генетические алгоритмы [1] и алгоритм решения изобретательских задач (АРИЗ) [2] связывает общее происхождение из эволюционной теории. Генетические алгоритмы используются для поиска оптимального решения путем естественного отбора и наследования. Поиск ответа в АРИЗ представляет собой процесс зарождения, развития и разрешения противоречий. Исходными данными в обоих случаях является изобретательская ситуация, но АРИЗ относится к направленным методам поиска решения, а генетические алгоритмы имеют случайную составляющую.</p>
+<p>
+	&nbsp;Как указывает автор АРИЗ Г.С.Альтшуллер, &quot;изобретательская ситуация представляет собой клубок сложных проблем, и нужно каким-то образом выделить из этого клубка единственно правильную задачу&quot;. Правильная задача отыскивается в наиболее &quot;узком&quot; месте этого клубка, там, где выявляется наиболее обостренное противоречие неравномерного развития. Математически модель противоречия задается системой двух нелинейных дифференциальных уравнений, образующих компенсационный гомеостат [3]. В режиме поиска решения, которое в АРИЗ называется икс-элементом, гомеостат проходит хаотическую стадию. На этой стадии икс-элементу передается наследственная информация от конкурирующих сторон, приводящая к разрешению противоречия.</p>
+<p>
+	&nbsp;Однако не всегда удается успешно выявить &quot;узкое&quot; место в изобретательской ситуации. Кроме того, таких &quot;узких&quot; мест может быть несколько. Поэтому наряду с направленным методом поиска необходим некоторый перебор вариантов. В этом случае дополнение АРИЗ генетическими алгоритмами поиска представляет собой перспективное и актуальное направление.</p>
+<p>
+	&nbsp;Для использования генетического алгоритма необходимо иметь набор некоторых элементов или популяцию, в которой путем селекции отбираются лучшие элементы. Элементы или особи популяции должны иметь математическое описание, пригодное для механизма селекции, при действии которого (механизма) выбираются эти лучшие элементы.</p>
+<p>
+	&nbsp;Будем полагать, что в результате анализа изобретательской ситуации получена потоковая структурная модель, отражающая преобразование энергии и информации структурой. Элементы этой структуры называются веществами, а взаимодействия между ними - полями. Зададим свойства веществ и полей через некоторые величины, которые могут быть измерены в подходящей физической системе единиц. Например, мембрана, преобразующая внешнее поле давления в прогиб, может быть задана физической величиной - жесткостью, прогиб может быть измерен единицами длины, а давление - силой, приходящейся на единицу площади поверхности мембраны.</p>
+<p>
+	&nbsp;Тогда свойства веществ и полей потоковой структурной модели можно выбрать за элементы или особи популяции, математически описываемые физическими размерностями соответствующих свойств. Скрещивая альтернативные свойства, образующие противоречия исходной потоковой модели, будем искать физические свойства икс-элементов, разрешающих эти противоречия.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>&nbsp;Математический базис изобретательской физики</strong></p>
+<p>
+	&nbsp;Для перехода от физики изобретательских задач к математическим моделям в [4] предложено использовать кинематическую систему физических величин Р. Бартини [5], представленную в табл.1.</p>
+<p align="left">
+	Таблица 1 &ndash; Кинематическая система величин Бартини</p>
+<table border="1" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<p>
+					&nbsp;</p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>-1</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>0</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>1</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>2</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>3</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>4</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>5</sup></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					<em>T</em><sup>-5</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>-1</sup><em>T</em><sup>-5</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>0</sup><em>T </em><sup>-5</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>1</sup><em>T</em><sup>-5</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>2</sup><em>T</em><sup>-5</sup></p>
+</td>
+<td>
+<p>
+					Поверхн. мощность</p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>4</sup><em>T</em><sup>-5</sup></p>
+</td>
+<td>
+<p>
+					Мощность</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					<em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>-1</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>0</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p>
+					Удельный вес. Градиент давления</p>
+</td>
+<td>
+<p>
+					Давление. Напряжение</p>
+</td>
+<td>
+<p>
+					Поверхн. натяжение. Жесткость</p>
+</td>
+<td>
+<p>
+					Сила</p>
+</td>
+<td>
+<p>
+					Энергия. Статистич. тем-тура. Момент</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					<em>T</em><sup>-3</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>-1</sup><em>T</em><sup>-3</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>0</sup><em>T</em><sup>-3</sup></p>
+</td>
+<td>
+<p>
+					Плотность потока</p>
+</td>
+<td>
+<p>
+					Напряженность эл.-магн. поля. Вязкость</p>
+</td>
+<td>
+<p>
+					Ток.</p>
+<p>
+					Массовый расход</p>
+</td>
+<td>
+<p>
+					Импульс</p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>5</sup><em>T</em><sup>-3</sup></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					<em>T</em><sup>-2</sup></p>
+</td>
+<td>
+<p>
+					Изменение электр. объемной плотности</p>
+</td>
+<td>
+<p>
+					Угловое ускорение. Массовая плотность</p>
+</td>
+<td>
+<p>
+					Линейное ускорение</p>
+</td>
+<td>
+<p>
+					Разность потенциалов</p>
+<p>
+					&nbsp;</p>
+</td>
+<td>
+<p>
+					Масса.</p>
+<p>
+					Кол-во электричества</p>
+</td>
+<td>
+<p>
+					Магн.</p>
+<p>
+					момент</p>
+</td>
+<td>
+<p>
+					Момент инерции</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					<em>T</em><sup>-1</sup></p>
+</td>
+<td>
+<p>
+					Электр. объемная плотность</p>
+</td>
+<td>
+<p>
+					Частота. Угловая скорость</p>
+</td>
+<td>
+<p>
+					Линейная скорость</p>
+</td>
+<td>
+<p>
+					Обильность двумерная</p>
+</td>
+<td>
+<p>
+					Расход объемный</p>
+</td>
+<td>
+<p>
+					Скорость смещения объема</p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>5</sup><em>T</em><sup>-1</sup></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					<em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p>
+					Кривизна. Изменение проводи мости</p>
+</td>
+<td>
+<p>
+					Безраз-мерная величина. Константа</p>
+</td>
+<td>
+<p>
+					Длина. Емкость.</p>
+<p>
+					Само-индукция</p>
+</td>
+<td>
+<p>
+					Поверхность (площадь)</p>
+</td>
+<td>
+<p>
+					Объем</p>
+</td>
+<td>
+<p>
+					Момент инерции плоской фигуры</p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>5</sup><em>T</em><sup>0</sup></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					<em>T</em><sup>1</sup></p>
+</td>
+<td>
+<p>
+					Проводимость</p>
+</td>
+<td>
+<p>
+					Период. Продолжительность</p>
+</td>
+<td>
+<p>
+					Длительность расстояния</p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>2</sup><em>T</em><sup>1</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>3</sup><em>T</em><sup>1</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>4</sup><em>T</em><sup>1</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>5</sup><em>T</em><sup>1</sup></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					<em>T</em><sup>2</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>-1</sup><em>T</em><sup>2</sup></p>
+</td>
+<td>
+<p>
+					Поверхность времени</p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>1</sup><em>T</em><sup>2</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>2</sup><em>T</em><sup>2</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>3</sup><em>T</em><sup>2</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>4</sup><em>T</em><sup>2</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>5</sup><em>T</em><sup>2</sup></p>
+</td>
+</tr>
+</table>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;Система опирается всего на две базовых единицы, каждая из которых квантуется &ndash; единицу длины <em>L</em> и единицу времени <em>T</em>Размерности всех остальных физических величин представляются как произведение целочисленных степеней базовых единиц <em>L</em><sup>m</sup><em>T</em><sup>-</sup><sup>n</sup>. Поскольку измерение осуществляется в трехмерном мире, то соотношение степеней размерностей должно подчиняться правилу: |<em>m</em>+<em>n</em>| &le;3.</p>
+<p>
+	&nbsp;Согласно терминологии в работе [2] горизонтальные строки таблицы называются трендами пространственных ресурсов. Легко заметить, что размерности свойств всех элементов тренда имеют в своем составе множитель <em>L</em><sup>+1</sup>, который передается по наследству от свойства к свойству слева направо, и который можно назвать геном длины.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Аналогично пространственным трендам можно ввести понятие временных трендов &ndash; это столбцы таблицы. В столбцах от свойства к свойству снизу вверх передается ген времени<em>T</em><sup>+1</sup> .</p>
+<p>
+	&nbsp;Кроме ресурсов пространства и времени, следует определить место вещественно-полевых ресурсов (ВПР) в таблице Бартини. Для этого введем понятие тренда ВПР &ndash; это диагональ таблицы, проходящая слева снизу направо вверх. Тренды ВПР образуют семь диагоналей, содержащие физические свойства с размерностями<em>L</em><sup>m</sup><em>T</em><sup>-</sup><sup>n</sup>, при |<em>m</em>+<em>n</em>| &le;3. Все тренды ВПР от поколения к поколению передают ген скорости <em>L</em><sup>1</sup><em>T</em><sup>-1</sup>=<em>V</em><sup>+1</sup>. Сумма показателей степеней величин, лежащих на отдельном тренде, совпадает и отличается от суммы показателей степеней величин соседних трендов на единицу.</p>
+<p>
+	&nbsp;В работе [7] получено дифференциальное уравнение, описывающее эволюцию свойства икс-элемента после момента &quot;озарения&quot; или захвата икс-элемента системой мысленного поиска и слежения в сознании изобретателя:</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<em>Kdz/</em><em>dt=3</em><em>xy-</em><em>az</em>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (1)</p>
+<p>
+	где <em>x</em> и <em>y</em> &ndash; координаты, описывающие эволюцию конкурирующих свойств технического противоречия, <em>z</em> &ndash; координата, определяющая эволюцию икс-элемента в режиме слежения, <em>K</em> &ndash; некоторый коэффициент, зависящий от психологической инерции, <em>а</em> &ndash; коэффициент, зависящий от остроты мышления.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Когда инерция преодолена, свойство <em>z</em> икс-элемента четко фиксируется сознанием, т.е. <em>z</em> уже не изменяется, наступает установившийся режим<em>dz/</em><em>dt=</em>0, и из дифференциального уравнения (1) получаем алгебраическое уравнение:</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<em>z=3</em><em>xy-</em><em>a</em>= <em>Cxy</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (2)</p>
+<p>
+	&nbsp;Произведение <em>xy</em> передает наследственную информацию о свойствах <em>x</em> и <em>y</em> &quot;родителей&quot;, свойству <em>z</em> их &quot;ребенка&quot;, то есть икс-элементу. Для определения физического свойства <em>z</em> переходим от математического уравнения (2) к его физического эквиваленту в виде уравнения размерностей в LT-базисе Бартини:</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<em>L</em><sup>m3</sup><em>T</em><sup>n3</sup>= <em>C</em>&middot; <em>L</em><sup>m1</sup><em>T</em><sup>n1 </sup>&middot;<em>L</em><sup>m2</sup><em>T</em><sup>n2</sup><em>.&nbsp;&nbsp;&nbsp; </em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (3)</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Постоянная <em>C</em> является размерной константой, т.е. <em>L</em><sup>m4</sup><em>T</em><sup>n4</sup>, и где все <em>mi</em>и <em>nj</em>и &ndash; целые числа, положительные и отрицательные.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; В уравнении (3) произведение <em>L</em><sup>m1</sup><em>T</em><sup>n1 </sup>&middot;<em>L</em><sup>m2</sup><em>T</em><sup>n2 </sup>определяет тот элемент тренда ВПР, в котором заложены свойства того и другого &quot;родителей&quot;. Сам же тренд ВПР, проходящий через этот элемент с размерностью <em>L</em><sup>m1</sup><em>T</em><sup>n1 </sup>&middot;<em>L</em><sup>m2</sup><em>T</em><sup>n2</sup>, может быть назван родительским.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Следовательно, операцией скрещивания особей будет умножение соответствующих физических размерностей. Однако если традиционно рассматривается одно, ключевое, противоречие, то в генетическом алгоритме их участвует десятки и сотни, что позволяет вовлечь в процесс решения множество факторов и ресурсов, имеющихся в задаче.</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;<strong>Генетический алгоритм в изобретательской задаче</strong></p>
+<p>
+	&nbsp;Определим следующую последовательность решения изобретательской задачи, в которой используем генетический алгоритм.</p>
+<p>
+	1. Описание изобретательской ситуации</p>
+<p>
+	2. Синтез потоковой информационно-энергетической структурной схемы</p>
+<p>
+	3. Выбор факторов системы, влияющих на потребительские характеристики задачи.</p>
+<p>
+	4. Кодирование факторов с помощью LT-таблицы Бартини.</p>
+<p>
+	5. Создание исходной популяции факторов.</p>
+<p>
+	6. Расчет функций приспособленности факторов.</p>
+<p>
+	7. Проверка условия завершения генетического алгоритма.</p>
+<p>
+	&nbsp;Если условие не достигнуто, то продолжается селекция факторов, скрещивание и мутация, а затем создание новой популяции.</p>
+<p>
+	&nbsp;Если условие достигнуто, то выбирается лучший фактор для решения задачи и выход из алгоритма.</p>
+<p>
+	8. Переход к шагу 6.</p>
+<p>
+	&nbsp;Генетический алгоритм начинается с шага 4 - кодирования факторов. Кодирование факторов означает, что особям (факторам) присваиваются физические размерности из таблицы Бартини. Кроме того, для каждой особи должна рассчитываться функция приспособленности, позволяющая определить, какая физическая размерность более или менее подходит для решения поставленной задачи. Функцию приспособленности выбираем исходя из условия конкретной задачи. Для принятия решения рассчитаем родительский тренд, и по таблице Бартини найдем с помощью генетического алгоритма ту физическую размерность, которая находится на родительском тренде и имеет наибольшую среди особей этого тренда функцию приспособленности.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Пример</strong></p>
+<p>
+	&nbsp;Рассмотрим классическую изобретательскую задачу о запайке ампулы с лекарством [8] Имеется ампула с жидким лекарством, которая установлена вертикально капилляром вверх и движется по транспортеру в кассете с другими ампулами. В определенном месте транспортер останавливается, к капиллярам ампул придвигаются газовые горелки, капилляры оплавляются и герметизируют ампулу (рисунок 1). Здесь можно сформулировать техническое противоречие: если длина пламени большая, тогда запайка хорошая , но место лекарство перегревается и портится, если длина пламени маленькая, тогда запайка плохая, но лекарство не портится. Цель задачи &ndash; найти некий ресурс &ndash; икс-элемент, который позволит разрешить это противоречие и обеспечит как хорошую запайку ампулы, так и сохранность лекарства.</p>
+<p>
+	&nbsp;</p>
+<p class="rtecenter">
+	<img alt="" src="/sites/default/files/u5/02213-1.JPG" /></p>
+<p>
+	&nbsp;</p>
+<p align="center">
+	Рисунок 1. Запайка ампул с лекарством</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;Составим структурную потоковую схему преобразования энергии и информации (рисунок 2).</p>
+<p>
+	&nbsp;</p>
+<p class="rtecenter">
+	<img alt="" src="/sites/default/files/u5/02213-2.JPG" /></p>
+<p align="center">
+	&nbsp;</p>
+<p align="center">
+	Рисунок 2. Потоковая структурная схема</p>
+<p align="center">
+	&nbsp;</p>
+<p>
+	&nbsp;По схеме определяем, какие вещества и поля следует учитывать при решении задачи, а затем, - какие ресурсы (факторы) выбрать для описания этих веществ и полей. Чем больше факторов мы выберем, тем больше информации о задаче получит алгоритм поиска, и тем эффективнее он будет работать. В этом отличие генетического алгоритма от АРИЗ. АРИЗ строит модель задачи в виде противоречия для одного, &laquo;узкого&raquo; места структуры. Например, в рассматриваемой задаче &laquo;узкое&raquo; место &ndash; это пара пламя-ампула (лекарство), все остальные вещества и поля с их свойствами исключаются из модели. Хорошая запайка оценивается длиной оплавленной части капилляра, а порча лекарства - температурой пламени. Скрещивание двух факторов - длины и температуры дает лишь один родительский тренд.</p>
+<p>
+	&nbsp;Использование же генетического алгоритма позволяет использовать структурную модель более широко, предположив в ней наличие многих противоречий в виде бинарных отношений свойств веществ и полей. Благодаря этому появляется несколько родительских трендов. Если скрещивание выводит особь на нереализуемый в трехмерном пространстве тренд, то она (особь) скрещивается с третьим фактором, возвращающим потомка на реализуемый тренд, т.е. в этом случае используются уже тернарные отношения между свойствами.</p>
+<p>
+	&nbsp;Выберем следующие факторы, разнородно влияющие на качество запайки ампулы:</p>
+<p>
+	1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; температура пламени;</p>
+<p>
+	2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; температура лекарства;</p>
+<p>
+	3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; давление в горелке;</p>
+<p>
+	4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; объем ампулы;</p>
+<p>
+	5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; длина (высота) ампулы;</p>
+<p>
+	6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; длина капилляра ампулы;</p>
+<p>
+	7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; длина (диаметр) сопла горелки;</p>
+<p>
+	8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; длина (толщина) стенок ампулы:</p>
+<p>
+	9.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; теплоемкость стекла;</p>
+<p>
+	10.&nbsp; время запайки.</p>
+<p>
+	&nbsp;Теперь эти факторы мы должны скрестить. Для этого разобьем факторы попарно и логически перемножим их физические размерности по формуле (3). Результат приведен в таблице 2.</p>
+<p>
+	&nbsp;</p>
+<p>
+	Таблица 2 &ndash; Факторы, влияющие на запайку ампулы</p>
+<table border="1" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<p>
+					Входной фактор, <em>х</em></p>
+</td>
+<td>
+<p>
+					Входной фактор, <em>y</em></p>
+</td>
+<td>
+<p>
+					Выход, <em>z</em></p>
+</td>
+<td>
+<p>
+					Сумма</p>
+<p>
+					показателей</p>
+<p>
+					&nbsp;степеней m+n</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					Длина, <em>L</em><sup>1</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p>
+					Длина, <em>L</em><sup>1</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>2</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p>
+					2</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					Длина, <em>L</em><sup>1</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p>
+					Время, <em>L</em><sup>0</sup><em>T</em><sup>1</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>1</sup><em>T</em><sup>1</sup></p>
+</td>
+<td>
+<p>
+					2</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					Время, <em>L</em><sup>0</sup><em>T</em><sup>1</sup></p>
+</td>
+<td>
+<p>
+					Время, <em>L</em><sup>0</sup><em>T</em><sup>1</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>0</sup><em>T</em><sup>2</sup></p>
+</td>
+<td>
+<p>
+					2</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					Время, <em>L</em><sup>0</sup><em>T</em><sup>1</sup></p>
+</td>
+<td>
+<p>
+					Температура, <em>L</em><sup>5</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>5</sup><em>T</em><sup>-3</sup></p>
+</td>
+<td>
+<p>
+					2</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					Длина, <em>L</em><sup>1</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p>
+					Температура, <em>L</em><sup>5</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>6</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p>
+					2</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					Температура, <em>L</em><sup>5</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p>
+					Температура, <em>L</em><sup>5</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>10</sup><em>T</em><sup>-8</sup></p>
+</td>
+<td>
+<p>
+					2</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					Давление, <em>L</em><sup>2</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p>
+					Теплоемкость, <em>L</em><sup>0</sup><em>T</em><sup>-2</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>2</sup><em>T</em><sup>-6</sup></p>
+</td>
+<td>
+<p>
+					-4</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+					Объем, <em>L</em><sup>3</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p>
+					Длина, <em>L</em><sup>1</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p>
+					<em>L</em><sup>4</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p>
+					4</p>
+</td>
+</tr>
+</table>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;Расчет показал, что родительский тренд для задачи о запайке ампул задается показателем <em>m</em>+<em>n</em>=2. Кроме того, имеются и другие родительские тренды, полученные перемножением других факторов. Следовательно, в задаче действует целый ряд противоречий, которые можно использовать для нахождения другого решения.</p>
+<p>
+	&nbsp;Далее нам следует определить, какой из ресурсов на родительском тренде может дать наиболее эффективное решение задачи. Для поиска решения воспользуемся генетическим алгоритмом.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; На первом шаге производится инициализация, или выбор исходной популяции особей (таблица 3, второй столбец). В нашей задаче особями являются физические размерности таблицы Бартини (таблица 1). Нам предстоит в ходе искусственной эволюции выбрать среди них наилучшую с точки зрения решения поставленной задачи.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Необходимо определить функцию приспособленности каждой особи (таблица 3, третий столбец). Для этого присвоим каждой из них некоторую &laquo;ценность&raquo;, выраженную числом в диапазоне от единицы до пяти. Чем больше число, тем более приспособленной является особь. Факторы, непосредственно влияющие на запайку ампулы, обладают наиболее &laquo;сильной&raquo; наследственной информацией, поэтому их надо поощрить &ndash; придадим им максимальную &laquo;ценность&raquo; &ndash; пять баллов. Остальные ресурсы пока не несут какой-либо наследственной информации &ndash; поэтому оценим их единицей. Анализироваться будут только те величины, которые в таблице имеют физическое определение.</p>
+<p>
+	&nbsp;</p>
+<p>
+	Таблица 3 &ndash; Исходная популяция особей</p>
+<table border="1" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<p align="center">
+					Номер особи</p>
+</td>
+<td>
+<p align="center">
+					Особь</p>
+</td>
+<td>
+<p align="center">
+					Функция приспособленности</p>
+</td>
+<td>
+<p align="center">
+					Сектор</p>
+</td>
+<td>
+<p align="center">
+					Границы секторов</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>3</sup><em>T</em><sup>-5</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					2</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>5</sup><em>T</em><sup>-5</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					3,45</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					3</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>1</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					5,17</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					4</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>2</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p align="center">
+					5</p>
+</td>
+<td>
+<p align="center">
+					8,62</p>
+</td>
+<td>
+<p align="center">
+					13,79</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					5</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>3</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					15,52</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					6</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>4</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					17,24</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					7</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>5</sup><em>T</em><sup>-4</sup></p>
+</td>
+<td>
+<p align="center">
+					5</p>
+</td>
+<td>
+<p align="center">
+					8,62</p>
+</td>
+<td>
+<p align="center">
+					25,86</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					8</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>1</sup><em>T</em><sup>-3</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					27,59</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					9</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>2</sup><em>T</em><sup>-3</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					29,31</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					10</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>3</sup><em>T</em><sup>-3</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					31,03</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					11</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>4</sup><em>T</em><sup>-3</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					32,76</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					12</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>-1</sup><em>T</em><sup>-2</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					34,48</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					13</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>0</sup><em>T</em><sup>-2</sup></p>
+</td>
+<td>
+<p align="center">
+					5</p>
+</td>
+<td>
+<p align="center">
+					8,62</p>
+</td>
+<td>
+<p align="center">
+					43,10</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					14</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>1</sup><em>T</em><sup>-2</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					44,83</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					15</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>2</sup><em>T</em><sup>-2</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					46,55</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					16</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>3</sup><em>T</em><sup>-2</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					48,28</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					17</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>4</sup><em>T</em><sup>-2</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					50,00</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					18</p>
+</td>
+<td>
+<p>
+					&nbsp;<em>L</em><sup>5</sup><em>T</em><sup>-2</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					51,72</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					19</p>
+</td>
+<td>
+<p>
+					&nbsp;<em>L</em><sup>-1</sup><em>T</em><sup>-1</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					53,45</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					20</p>
+</td>
+<td>
+<p>
+					&nbsp;<em>L</em><sup>0</sup><em>T</em><sup>-1</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					55,17</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					21</p>
+</td>
+<td>
+<p>
+					&nbsp;<em>L</em><sup>1</sup><em>T</em><sup>-1</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					56,90</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					22</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>2</sup><em>T</em><sup>-1</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					58,62</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					23</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>3</sup><em>T</em><sup>-1</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					60,34</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					24</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>4</sup><em>T</em><sup>-1</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					62,07</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					25</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>-1</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					63,79</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					26</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>0</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					65,52</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					27</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>1</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p align="center">
+					5</p>
+</td>
+<td>
+<p align="center">
+					8,62</p>
+</td>
+<td>
+<p align="center">
+					74,14</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					28</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>2</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					75,86</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					29</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>3</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p align="center">
+					5</p>
+</td>
+<td>
+<p align="center">
+					8,62</p>
+</td>
+<td>
+<p align="center">
+					84,48</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					30</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>4</sup><em>T</em><sup>0</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					86,21</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					31</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>-1</sup><em>T</em><sup>1</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					87,93</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					32</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>0</sup><em>T</em><sup>1</sup></p>
+</td>
+<td>
+<p align="center">
+					5</p>
+</td>
+<td>
+<p align="center">
+					8,62</p>
+</td>
+<td>
+<p align="center">
+					96,55</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					33</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>1</sup><em>T</em><sup>1</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					98,28</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">
+					34</p>
+</td>
+<td>
+<p align="center">
+					<em>L</em><sup>0</sup><em>T</em><sup>2</sup></p>
+</td>
+<td>
+<p align="center">
+					1</p>
+</td>
+<td>
+<p align="center">
+					1,72</p>
+</td>
+<td>
+<p align="center">
+					100,00</p>
+</td>
+</tr>
+</table>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Далее проверяется условие остановки алгоритма. Примем, что для нашего примера поиска необходимо сделать 5 итераций. Поскольку для исходной популяции ни одного шага алгоритм еще не сделал, то условие остановки не выполнено.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Тогда на следующем этапе необходимо провести селекцию особей для скрещивания. Селекция заключается в выборе (по рассчитанным на предыдущем этапе значениям функции приспособленности) тех особей, которые будут участвовать в создании потомков для следующей популяции, т.е. для очередного поколения. Такой выбор производится согласно принципу естественного отбора, по которому наибольшие шансы на участие в создании новых особей имеют особи с наибольшими значениями функции приспособленности.</p>
+<p>
+	&nbsp;</p>
+<p class="rtecenter">
+	<img alt="" src="/sites/default/files/u5/02213-3.JPG" /></p>
+<p>
+	&nbsp;</p>
+<p align="center">
+	Рисунок 3. Сектора рулетки для всех особей исходной популяции</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; В задаче для селекции был использован метод рулетки. Каждой особи может быть сопоставлен сектор колеса рулетки, величина кото&shy;рого устанавливается пропорциональной значению функции приспо&shy;собленности данной особи (рисунок 3). Поэтому чем больше значение функции приспособленности, тем больше сектор на колесе рулетки.</p>
+<p>
+	&nbsp;Все колесо рулетки соответствует сумме значений функции приспособленности всех особей. Каждой особи, обозначаемой<em>ch</em><em><sub>i</sub></em>для <em>i</em>=1,2,&hellip;<em>N</em> (где <em>N</em> обозначает численность популяции), соответствует сектор колеса &nu;(<em>ch</em><em><sub>i</sub></em>), выраженный в процентах согласно формуле:</p>
+<p>
+	&nbsp;&nu;(<em>ch</em><em><sub>i</sub></em>)= <em>p</em><em><sub>s</sub></em>(<em>ch</em><em><sub>i</sub></em>)&middot;100%, ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (4)</p>
+<p>
+	где</p>
+<p>
+	<img alt="" src="/sites/default/files/u5/02213-5.JPG" />,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (5)</p>
+<p>
+	причем <em>F</em>(<em>ch</em><em><sub>i</sub></em>) &ndash; значение функции приспособленности особи <em>ch</em><em><sub>i</sub></em>, а<em>p</em><em><sub>s</sub></em>(<em>ch</em><em><sub>i</sub></em>) &ndash; вероятность селекции особи <em>ch</em><em><sub>i</sub></em>. Селекция особи может быть представлена как результат поворота колеса рулетки, поскольку &laquo;выигравшая&raquo;, т.е. выбранная особь относится к вы&shy;павшему сектору этого колеса. Очевидно, что чем больше сектор, тем больше вероятность &laquo;победы&raquo; соответствующей особи. Поэто&shy;му вероятность выбора данной особи оказывается пропорцио&shy;нальной значению ее функции приспособленности. Если всю окруж&shy;ность колеса рулетки представить в виде цифрового интервала [0, 100], то выбор особи можно отождествить с выбором числа из интервала [а, b], где а и b обозначают соответственно начало и окон&shy;чание фрагмента окружности, соответствующего этому сектору коле&shy;са; очевидно, что 0 &lt; а &lt; b &lt; 100. В этом случае выбор с помощью ко&shy;леса рулетки сводится к выбору числа из интервала [0, 100], которое соответствует конкретной точке на окружности колеса.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Согласно описанному методу для каждой особи текущей популяции (в нашем случае &ndash; исходной популяции) получаем секторы колеса рулетки, выраженные в процентах (таблица 3, четвертый столбец). Приведем пример расчета сектора колеса рулетки&nu;(<em>ch</em><em><sub>1</sub></em>)для первой особи популяции <em>L</em><sup>3</sup><em>T</em><sup>-5</sup>. Вычислим сумму функций приспособленности всех особей популяции: <strong><img alt="" src="/sites/default/files/u5/02213-4.JPG" /></strong>.</p>
+<p>
+	&nbsp;</p>
+<p>
+	Далее рассчитаем вероятность селекции первой особи по формуле (5): <em>p</em><em><sub>1</sub></em>(<em>ch</em><em><sub>1</sub></em>)=1/58&asymp;0,0172. Сектор &nu;(<em>ch</em><em><sub>1</sub></em>) колеса рулетки, соответствующий первой особи, по формуле (4) равен: &nu;(<em>ch</em><em><sub>1</sub></em>)= 0,0172&middot;100%=1,72%/. Аналогичный расчет делает для всех остальных особей популяции. Результаты приведены в четвертом столбце таблицы 3. То есть мы последовательно отмеряем каждой особи ее часть на колесе рулетки. Распределение секторов по колесу рулетки приведено на рисунке 4, каждый сектор подписан соответствующим номером особи.</p>
+<p>
+	&nbsp;Розыгрыш с помощью колеса рулетки сводится к случайному выбору числа из интервала [0, 100], указывающего на соответствующий сектор на колесе, т. е. на конкретную особь. Выберем из нашей популяции методом рулетки 34 пары особей. Поясним: пусть на рулетке выпадает число 61, оно располагается промежутке от 60,34 до 62,07, этому промежутку соответствует особь <em>L</em><sup>4</sup><em>T</em><sup>-1</sup> &ndash; физическая размерность скорости смещения объема &ndash; это первая особь родительской пары. Далее разыгрываем рулетку снова, выпадает число 56, попадающее в промежуток от 55,17 до 56,90, что соответствует особи <em>L</em><sup>1</sup><em>T</em><sup>-1</sup> &ndash; физическая размерность линейной скорости &ndash; вторая родительская особь. Таким образом, получили первую пару особей для скрещивания. Производим скрещивание по формуле:</p>
+<p>
+	&nbsp;<em>L</em><sup>m3</sup><em>T</em><sup>n3</sup>= <em>L</em><sup>m1</sup><em>T</em><sup>n1 </sup>&middot;<em>L</em><sup>m2</sup><em>T</em><sup>n2</sup>,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>
+	где <em>L</em><sup>m1</sup><em>T</em><sup>n1 </sup>и <em>L</em><sup>m2</sup><em>T</em><sup>n2</sup> &ndash; родители, <em>L</em><sup>m3</sup><em>T</em><sup>n3</sup>&ndash; потомок.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Получаем потомка:<em>L</em><sup>5</sup><em>T</em><sup>-2 </sup>= <em>L</em><sup>4</sup><em>T</em><sup>-1 </sup>&middot;<em>L</em><sup>1</sup><em>T</em><sup>-1</sup> &ndash; физическая размерность момента инерции. В случае, если размерность потомка физически не реализуема, выбираем случайным образом в качестве потомка любую особь из исходной популяции с соответствующей функцией приспособленности.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Далее рассчитаем функцию приспособленности потомка по формуле:</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>f</em><em><sub>п</sub></em>=(<em>f</em><em><sub>1</sub></em>+<em>f</em><em><sub>2</sub></em>+<em>f</em><em><sub>исх</sub></em>&nbsp; )/3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (6)</p>
+<p>
+	где <em>f</em><em><sub>п</sub></em> &ndash; функция приспособленности потомка, <em>f</em><em><sub>1</sub></em> и <em>f</em><em><sub>2</sub></em> &ndash; функции приспособленности родителей, <em>f</em><em><sub>исх</sub></em> &ndash; исходная функция приспособленности потомка.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Получаем функцию приспособленности рассматриваемого потомка (1+1+1)/3=1.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Аналогичным образом получаем 34 остальных потомка с соответствующими функциями приспособленности. Возможна ситуация, когда от разных родителей или при случайном выборе из исходной популяции появляются одинаковые потомки, в этом случае оставляется только одна особь из группы совпадающих, а ее функция приспособленности вычисляется по формуле:</p>
+<p>
+	&nbsp;</p>
+<p class="rtecenter">
+	<img alt="" src="/sites/default/files/u5/02213-7.JPG" />,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (7)</p>
+<p>
+	&nbsp;</p>
+<p>
+	где <em>f</em><em><sub>п</sub></em> &ndash; результирующая функция приспособленности в группе совпадающих потомков, <em>f</em><em><sub>к</sub></em> &ndash; функция приспособленности <em>k</em>-го совпадающего потомка, <em>М</em> &ndash; общее количество совпадающих потомков.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Таким образом, каждая особь исходной популяции получила шанс как передать свою генетическую информацию потомку, так и без изменений перейти в следующую популяцию. Особи-потомки являются новой популяцией, для которой снова по формулам (4) и (5) рассчитываем сектора рулетки, производим селекцию и скрещивание, т.е. осуществляем вторую итерацию алгоритма и аналогично последующие итерации.</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; После пяти итераций алгоритма наибольшую функцию приспособленности среди особей, расположенных на родительском тренде, имеет особь<em>L</em><sup>1</sup><em>T</em><sup>1</sup> , на втором месте<em>L</em><sup>3</sup><em>T</em><sup>-1</sup> &ndash; объемный расход. В нашей задаче, решенной по АРИЗу, именно объемный расход является тем физическим свойством, которым обладает икс-элемент одного их &laquo;хороших&raquo; решений: использование проточной воды для нейтрализации &laquo;плохого&raquo; действия пламени горелки. Возможно, что с увеличением итераций этот параметр выйдет на первое место по приоритету.</p>
+<p>
+	Заключение</p>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Общий эффект от использования генетического алгоритма для поиска решения в изобретательской задаче является положительным. Однако метод имеет существенный изъян &ndash; необходимость ранжировать физические размерности, т.е. в зависимости от задачи присваивать им те или иные баллы. Очевидно, что наиболее приспособленными должны назначаться особи, которые определяют свойства ресурсов, имеющихся в избытке. Это определяется при анализе ВПР.</p>
+<p>
+	&nbsp;</p>
+<p>
+	Литература</p>
+<p>
+	1. Емельянов В.В., Курейчик В.В., Курейчик В.М. Теория и практика эволюционного моделирования. &mdash; М.: ФИЗМАТЛИТ, 2003. 432 с.</p>
+<p>
+	2. Альтшуллер Г.С. Найти идею.&mdash; Новосибирск: Наука. Сиб. отд-ние, 1991. 324 с.</p>
+<p>
+	3. Бушуев А.Б.,Чепинский С.А. Хаотические гомеостаты // Изв. вузов. Приборостроение. 2007. Т.50 . №11. С. 59-63.</p>
+<p>
+	4. Бушуев А.Б.,Чепинский С.А. Дискретная математика изобретательских задач // Третья Всероссийская НПК по имитационному моделированию и его применению в науке и промышленности &quot;Имитационное моделирование: теория и практика&quot; ИММОД-2007. СПБ.: ФГУП ЦНИИ ТС. 2007. Сб. докладов. Т1. С. 93-97.</p>
+<p>
+	5. Ди Бартини Р.О. Некоторые соотношения между физическими константами// Доклады Академии наук СССР. 1965. Т. 163. №. 4. C.861-864.</p>
+<p>
+	6. Physico-Mathematical Search of Resources [Электронныйресурс] / Alexandr B. Bushuev. &ndash; Электрон. дан. ипрогр. (36 файлов: 262&nbsp;207 байт). &lt;<a href="http://www.triz-journal.com/archives/2008/01/02/&gt;">http://www.triz-journal.com/archives/2008/01/02/&gt;</a></p>
+<p>
+	7. Бушуев А. Б. Х-элемент: поиск, захват, слежение. Труды Международной конференции ТРИЗФЕСТ 2006 // &quot;Три поколения ТРИЗ&quot;. &ndash; Россия. &ndash; СПб. РОО &quot;ТРИЗ-Петербург&quot;, 2006. &ndash; с. 310&ndash;317.</p>
+<p>
+	8. Альтшуллер Г.С., Селюцкий А.Б. Крылья для Икара: Как решать изобретательские задачи.- Петрозаводск: Карелия, 1980. - 224 с.</p>
+<p>
+	&copy;Бушуев А.Б. 2011</p>
+</p>
+</div></div></div><section class="field field-name-taxonomy-vocabulary-3 field-type-taxonomy-term-reference field-label-above view-mode-full"><h2 class="field-label">Алфавитный указатель:&nbsp;</h2><ul class="field-items"><li class="field-item even"><a href="/taxonomy/term/145">Бушуев А.Б.</a></li></ul></section><section class="field field-name-taxonomy-vocabulary-2 field-type-taxonomy-term-reference field-label-above view-mode-full"><h2 class="field-label">Рубрики:&nbsp;</h2><ul class="field-items"><li class="field-item even"><a href="/taxonomy/term/25">Конференция</a></li></ul></section>  </div>
+
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+  <section id="comments" class="comment-wrapper">
+
+          <h2 class="comment-title title">Комментарии</h2>
+      
+  <a id="comment-18066"></a>
+<article class="comment odd first comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18066#comment-18066" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">blandux</span> on <time datetime="2011-04-29T22:52:36Z"><span class="date-time">пт, 29/04/2011 - 22:52</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-1519.jpg" alt="Изображение пользователя blandux." title="Изображение пользователя blandux." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>У меня была одна знакомая художница по костюмам. Очень рассеянная. Перед ней поставили задачу сделать эскизы для платьев с криналинами. Кроме этого необходимо было сделать чертежи, а проще говоря расчитать диаметр железных проволочных колец, которые должны вставляться в криналины, для создания объёма. Ключевое слово для неё было РАСЧИТАТЬ! С ней началась тихая паника. "Котелок" начал перегреваться. Слово РАСЧИТАТЬ не совместимо с некоторыми художницами. Как расчитывать?! Это нужно иметь специальное образование!С этой "проблеммой" она пристала ко мне. Первая моя мысль была действительно начать вспоминать формулы. Но какие и зачем???  Я дал ей "миллиметровку" и сказал чтобы она просто нарисовала на ней своё платье в масштабе. Далее мы отметили на нём, где должны проходить кольца, а диаметр их на миллиметровой бумаге сразу стал виден.<br />
+Есть много  задач, решение которых лежит вообще не в области математики. А задача с ампулой решается простым удлинением горлышка ампулы, длину которого всё же придётся рассчитать для порядка.<br />
+Не знаю, кто сказал: "Всё гениальное просто".  Здась всё как-то заумно, а от слова "рулетка" вообще попахивает шарлатанством.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18067"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18067#comment-18067" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">Александр Кудрявцев</span> on <time datetime="2011-04-29T23:18:00Z"><span class="date-time">пт, 29/04/2011 - 23:18</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">blandux</em> wrote: </div>
+<p>Есть много  задач, решение которых лежит вообще не в области математики. А задача с ампулой решается простым удлинением горлышка ампулы, длину которого всё же придётся рассчитать для порядка.<br />
+Не знаю, кто сказал: "Всё гениальное просто".  Здась всё как-то заумно, а от слова "рулетка" вообще попахивает шарлатанством.</p></blockquote>
+<p>Владислав, многие участники этого форума знают не по одному решению для этой задачи. У нас она частенько используется для первичного прогона новых инструментов именно в силу своей простоты и понятности. (Кстати "простое удлинение" не так уж и хорошо - применение этого подхода тут же дает следующую задачу).<br />
+Чтобы получить простое и действенное решение, нам, не гениям, обычно приходится поработать. Этот сайт рассчитан на людей, которых интересует разработка методов, их проверка, оценка и конечно же последующее упрощение, технологизация, "переход от интегралам к синусам". Здесь мы имеем заготовку метода, его идею. Конечно же, пока сложную заготовку. Пойдет метод в жизнь или нет, будет зависеть от того, даст ли он новый взгляд на ситуацию, будет ли выводить на новые решения. </p>
+<p>А от слова "рулетка" попахивает очень разным. Для математиков - распределением вероятностей реализации событий и ничем иным.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18068"></a>
+<article class="comment odd clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18068#comment-18068" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-04-30T01:14:16Z"><span class="date-time">сб, 30/04/2011 - 01:14</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">blandux</em> wrote: </div><br />
+Есть много  задач, решение которых лежит вообще не в области математики. А задача с ампулой решается простым удлинением горлышка ампулы, длину которого всё же придётся рассчитать для порядка.<br />
+Не знаю, кто сказал: "Всё гениальное просто". </blockquote> Интересные у нас люди появляются. Рад познакомиться.<br />
+    Хотелось бы вопросик подкинуть по Вашему простому решению, как Вы представляете практически его реализацию? По удлинению капилляра ампулы? Вот Вы главный инженер химико-фармацевтического предприятия, где в эти ампулы и разливается жидкое лекарство. А ампулы Вы получаете со стекольного завода, где их штампуют автоматы миллионами штук. И идете Вы на этот завод, да и говорите, измените форму капилляра, подлиннее сделайте. А Вам и говорят: из-за того, что у Вас горелки не прочищенные, плохо запаивается, Вы хотите, чтоб мы свой процесс перестроили? Да мы 5 лет форму капилляра с медициной согласовывали. А литьевые машины для стекла переделывать не будем. Вы лучше горелки свои прочистите, или мозги. Вон соседний завод берет у нас эти ампулы, и никаких проблем у него. А как он запаивает, нам и дела нет.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18069"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18069#comment-18069" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">Александр Кудрявцев</span> on <time datetime="2011-04-30T03:03:05Z"><span class="date-time">сб, 30/04/2011 - 03:03</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>Да если и удастся уговорить производителя ампул удлинить капилляр - окажется, что длинные капилляры ломаются в тех упаковках, которые используются для хранения и перевозки.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18070"></a>
+<article class="comment odd comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18070#comment-18070" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">GIP</span> on <time datetime="2011-04-30T03:03:17Z"><span class="date-time">сб, 30/04/2011 - 03:03</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-16.jpg" alt="Изображение пользователя GIP." title="Изображение пользователя GIP." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">Александр Кудрявцев</em> wrote: </div><blockquote class="quote-msg quote-nest-2 even"><div class="quote-author"><em class="placeholder">blandux</em> wrote: </div>Есть много  задач, решение которых лежит вообще не в области математики. А задача с ампулой решается простым удлинением горлышка ампулы, длину которого всё же придётся рассчитать для порядка.<br />
+Не знаю, кто сказал: "Всё гениальное просто".<br />
+</blockquote>Владислав, многие участники этого форума знают не по одному решению для этой задачи. У нас она частенько используется для первичного прогона новых инструментов именно в силу своей простоты и понятности. (Кстати "простое удлинение" не так уж и хорошо - применение этого подхода тут же дает следующую задачу).<br />
+</blockquote></p>
+<p>ИМХО, удлинение капилляра - это всего лишь одна сторона мысленного эксперимента. И этот известный путь решения задачи в лоб ведет к появлению АП (об этом как раз и говорит АВВ).<br />
+<blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">ABB</em> wrote: </div><br />
+Хотелось бы вопросик подкинуть по Вашему простому решению, как Вы представляете практически его реализацию? По удлинению капилляра ампулы?</blockquote></p>
+<p>Для появления ТП надо  сформулировать обратный ход мысленного эксперимента с капилляром - уменьшить его.</p>
+<p>Тогда придет понимание, например, того момента, что (именно) пламя горелки применяется для того, чтобы избежать необходимости удерживать каждую ампулу или группу их при использовании иных (не портящих лекарство) инструментов запечатывания капилляра.</p>
+<p><strong>Осознание</strong><br /><img src="http://i052.radikal.ru/1001/9c/8c221eb84a83.gif" alt="" /><br /><strong>==ИИ--&gt;</strong></p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18071"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18071#comment-18071" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">priven</span> on <time datetime="2011-04-30T03:54:34Z"><span class="date-time">сб, 30/04/2011 - 03:54</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>Спасибо за статью. Идея интересная: "скрещивать" размерности свойств, имеющих отношение к задаче, и выбирать наиболее перспективные сочетания (если я правильно понял основную идею). </p>
+<p>Есть пара вопросов:</p>
+<p>1. Вы пишете:<br />
+<blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author">Quote: </div>В нашей задаче, решенной по АРИЗу, именно объемный расход является тем физическим свойством, которым обладает икс-элемент одного их «хороших» решений: использование проточной воды для нейтрализации «плохого» действия пламени горелки.</blockquote><br />
+Пока что мне не очень понятно, каким образом привязать "объемный расход" именно к проточной воде: ведь этого элемента (воды) в исходной системе вроде бы не было! Как понять, что нужно ДОБАВИТЬ туда некий НОВЫЙ расходуемый элемент, а не изменить расход, скажем, газа или воздуха? И обязательно ли в данном случае вода вообще должна как-то расходоваться? Было бы неплохо проследить логическую цепь расуждений, приводящих к этому выводу на основе результатов компьютерного анализа.</p>
+<p>2. Не совсем понял, какие конкретно преимущества при выборе подходящих комбинаций свойств дает именно генетический алгоритм по сравнению с прямым перебором. Казалось бы, если уже (заранее) каким-то образом известны ранги для всех размерностей по Бартини, и уже (заранее) известен набор конкретных свойств, имеющих отношение к задаче, то что может быть проще, чем тупо посчитать ранги для ВСЕХ возможных произведений (бинарных, тернарных, ...) и выбрать из них, к примеру, 20 лучших по рангу сочетаний? Даже если в системе, к примеру, 100 существенных параметров, то прямой перебор всех сочетаний до 7 элементов включительно дает задачу с общим числом вариантов всего лишь порядка 10 миллиардов - что для современной персоналки, в общем, совершенно плевая задача на пару минут, максимум, и вроде бы генетический алгоритм здесь еще не требуется. А более сложных <strong>изобретательских</strong> задач, чем 100 факторов с "семерными" комбинациями, я пока что еще не встречал (честно говоря, реально было, максимум, что-то порядка 20 с "четверными" - а это всего менее 5000 вариантов, то есть задача, <strong>на таком уровне</strong> решаемая в принципе и на счетах, не говоря уже про Эксел). Наверное, я где-то ошибаюсь в оценке - но где именно?</p>
+<p>Заранее благодарен за пояснения.</p>
+<p>С уважением,</p>
+<p>Александр Привень.</p>
+<p>P.S. Позвольте вопрос невежды: а почему масса - это куб длины, деленный на КВАДРАТ ВРЕМЕНИ? Ведь в таком случае выходит, например, что размерность плотности по Бартини - это просто время в минус второй степени. А откуда в плотности - время?</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18075"></a>
+<article class="comment odd comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18075#comment-18075" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">blandux</span> on <time datetime="2011-04-30T09:36:59Z"><span class="date-time">сб, 30/04/2011 - 09:36</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-1519.jpg" alt="Изображение пользователя blandux." title="Изображение пользователя blandux." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>Хочу ответить, почему лучше всего удлинять ампулу. Во-первых я думал, что производятся и запаиваются они на одном предприятии, поэтому легче немного изменить уже существующий процесс, чем создавать новый процесс по охлаждению ампулы. Во-вторых производители, видимо так и решаю эту задачу, просто удлиняя и сужая горлышко.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18076"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18076#comment-18076" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">Александр Кудрявцев</span> on <time datetime="2011-04-30T09:39:00Z"><span class="date-time">сб, 30/04/2011 - 09:39</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">blandux</em> wrote: </div>Хочу ответить, почему лучше всего удлинять ампулу. </blockquote>Почему хорошо удлинять - это понятно. Осталось разобраться, почему удлинять плохо.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18079"></a>
+<article class="comment odd comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18079#comment-18079" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">Gregory Frenklach</span> on <time datetime="2011-04-30T14:02:15Z"><span class="date-time">сб, 30/04/2011 - 14:02</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-1284-1563992530.jpg" alt="Изображение пользователя Gregory Frenklach." title="Изображение пользователя Gregory Frenklach." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">ABB</em> wrote: </div><blockquote class="quote-msg quote-nest-2 even"><div class="quote-author"><em class="placeholder">blandux</em> wrote: </div><br />
+...задача с ампулой решается простым удлинением горлышка ампулы, длину которого всё же придётся рассчитать для порядка.<br />
+</blockquote><br />
+Вот Вы главный инженер химико-фармацевтического предприятия, где в эти ампулы и разливается жидкое лекарство. А ампулы Вы получаете со стекольного завода, где их штампуют автоматы миллионами штук. И идете Вы на этот завод, да и говорите, измените форму капилляра, подлиннее сделайте. А Вам и говорят: из-за того, что у Вас горелки не прочищенные, плохо запаивается, Вы хотите, чтоб мы свой процесс перестроили? Да мы 5 лет форму капилляра с медициной согласовывали. А литьевые машины для стекла переделывать не будем. Вы лучше горелки свои прочистите, или мозги. Вон соседний завод берет у нас эти ампулы, и никаких проблем у него. А как он запаивает, нам и дела нет.</blockquote><br />
+Решение не подходит но и аргумент "поставщик ампул не согласится" не проходит.<br />
+Поставщики ампул "в очереди стоят" и готовы их менять по желанию заказчика - только заказ размести.<br />
+Другое дело, что тогда, когда возникла эта задача и в там, где она возникла действительно "богом" был поставщик, а не заказчик.</p>
+<p>По поводу статьи - извините, но не понял, какая связь с генами, кроме, конечно терминов "генетический", "особь", "популяция", "гомеостат" и т.д.<br />
+Если эту "под гены заточенную" терминологию убрать, статья скорее выиграет.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18082"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18082#comment-18082" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">priven</span> on <time datetime="2011-04-30T18:59:10Z"><span class="date-time">сб, 30/04/2011 - 18:59</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">Gregory Frenklach</em> wrote: </div>По поводу статьи - извините, но не понял, какая связь с генами, кроме, конечно терминов "генетический", "особь", "популяция", "гомеостат" и т.д.<br />
+Если эту "под гены заточенную" терминологию убрать, статья скорее выиграет.</blockquote><br />
+Я тоже не уверен в необходимости применения "генетического алгоритма" в данном конкретном случае (о чем и спросил), но сам этот алгоритм имеет к эволюции, насколько я знаю, весьма опосредованное отношение: это просто метод решения сложных многопараметрических задач, позволяющий на порядки сократить число перебираемых вариантов без больших потерь в качестве результата. Другой вопрос - нужно ли здесь идти на маленькие потери, если можно и без них обойтись? Если это не сильно нужно - то тогда я с Вами совершенно солидарен. Надеюсь, автор разъяснит ситуацию.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18136"></a>
+<article class="comment odd clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18136#comment-18136" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-03T05:58:47Z"><span class="date-time">вт, 03/05/2011 - 05:58</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>1. На многие вопросы может ответить следующая статья<br /><a href="http://www.metodolog.ru/01257/01257.html">http://www.metodolog.ru/01257/01257.html</a><br />
+где и рассматривается подробно запайка ампулы как пример.<br />
+   На мой взгляд, однозначно доказано, что физическое свойство, которым должен обладать х-элемент, имеет размерность именно расхода метр кубический в секунду. То, что это вода, это не устанавливается, может быть и горючий газ, и воздух.<br />
+   Но понимаете, какая интересная штука получается. У Альтшуллера и Селюцкого, где приводится эта задача, о расходе воды ни слова не сказано. Помещаются ампулы в воду, а вода находится, например, как дешевый ВПР. Но вода при запайке будет испаряться, надо, чтобы был именно её расход. Это и позволяет метод размерностей.<br />
+2. По поводу генетического алгоритма и прямого перебора вариантов.<br />
+    Скажу как сам вижу эту проблему. Я вообще-то не занимаюсь последнее время разработкой ТРИЗ или АРИЗ, а занимаюсь задачами математического моделирования мышления изобретателя в ходе решения задачи, скажем, по АРИЗу. В какой-то мере эта задача относится к проблеме искусственного интеллекта. Это потребности учебного процесса на нашей кафедре, по нашей специальности. Сейчас становится модной такая штука как "Интеллектуальные системы управления", ну, и надо как-то соответствовать. Хоть с какого-то боку. А то просто автоматическое управление электродвигателем сустава робота-манипулятора уже не годится.<br />
+    А генетические алгоритмы моделируют на мой взгляд, мышление человека, он же не может перебирать миллиарды решений. В этом их и ценность. Вам же все равно придется отбирать те 20 решений, которые Вы решили оставить из многих миллиардов прямого перебора. А как Вы их оставили? Вот тут и ГА (ген.алг-мы) и могут сработать.<br />
+     Это направление я сам отношу к сравнительно недавно появившейся ветке нашей кибернетической специальности под названием "эволюционная кибернетика"<br />
+в частности, работы д. ф.-м. н. В.Г. Редько<br />
+вот немного здесь есть, это лекции для студентов<br /><a href="http://www.keldysh.ru/pages/BioCyber/Lectures.html">http://www.keldysh.ru/pages/BioCyber/Lectures.html</a><br />
+а вообще, у Редько и книжки есть, в прошлом году вышла, по эволюционной кибернетике. В инете можно найти.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18137"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18137#comment-18137" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-03T07:31:30Z"><span class="date-time">вт, 03/05/2011 - 07:31</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">Gregory Frenklach</em> wrote: </div>По поводу статьи - извините, но не понял, какая связь с генами, кроме, конечно терминов "генетический", "особь", "популяция", "гомеостат" и т.д.<br />
+Если эту "под гены заточенную" терминологию убрать, статья скорее выиграет.</blockquote>Частично я на это ответил уже Privenу, говоря о генетических алгоритмах. Понятие генов длины и времени и генов других физических свойств, важнейшее на мой взгляд, для задачи распознавания. Как мы, решая изобретательскую задачу, в качестве свойства икс-элемента распознаем своим мышлением, что он должен быть жестким, а не горячим, что решение в пространстве должно быть плоским, а не объемным, и т.п.<br />
+   Гены длины и времени позволяют легко конвертировать одни свойства в другие.  С философской точки зрения это конвертация пространства-времени-массы и др. подобные задачи, или просто формулы физических законов, через их размерности.<br />
+    Терминологию пожалуйста, выбрасывайте, если не нравится. Я никогда за неё не цеплялся. GIP Вам это подтвердит. Он меня знает. :)<br />
+    Тут что важно подчеркнуть, что прослеживается единство процесса мышления изобретателя с биологическими процессами эволюции. Процесс мышления он ведь не только психологический, но и биологический одновременно.Но как он протекает, мы не знаем, но мы можем построить математическую модель этого процесса, используя конкретную предметную, техническую задачу. Например, изобретательскую, о запайке ампул. Техника нам дает предмет, размеры, конкретику в мышлении. Вот и получается симбиоз "техническое + творчество"<br />
+   Ген длины - эта та единица наших представлений о пространстве, которая позволяет нам отличать точку от линии, линию от поверхности и т.д.<br />
+  Аналогично ген времени - единица, позволяющая отличать неподвижное состояние от движения с постоянной скоростью, а его - от движения с постоянным ускорением.<br />
+    Полезность генов вижу еще в выявлении трендов родственных ресурсов:<br />
+точка-линия-поверхность-объем, все содержат ген длины и передают его по наследству. Так это только один из многих трендов, известный в ТРИЗ.  По таблице Бартини их можно найти целую кучу, как пространственных, так и временных, так и диагональных. Родственность используемого в решении ресурса к ресурсам прототипа позволяет получать решение ближе к идеальному.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18140"></a>
+<article class="comment odd clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18140#comment-18140" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">priven</span> on <time datetime="2011-05-03T08:19:33Z"><span class="date-time">вт, 03/05/2011 - 08:19</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">ABB</em> wrote: </div>1. На многие вопросы может ответить следующая статья<br /><a href="http://www.metodolog.ru/01257/01257.html">http://www.metodolog.ru/01257/01257.html</a><br />
+</blockquote><br />
+Огромное спасибо за ссылку на целый пласт научной мысли. Очень похоже на то, что это в самом деле то, что может быть очень полезным при решении самых разных задач.</p>
+<p>Правда, возникают и вопросы. К примеру, взять положение о том, что любой закон определяет некий инвариант. Вроде бы и не придерешься, но... Вот один из самых известных и самых эвристичных законов природы - Периодический закон Менделеева - а какой инвариант он определяет? Что там остается постоянным и у чего? И какова у этого инварианта размерность? </p>
+<p>Можно, конечно, уйти в сторону и сказать, что химия, мол, не физика, и у нее свои законы - но хотелось бы все же, чтобы столь общий подход (люблю общие подходы к конкретным вещам!) не был погребен под обломками рухнувшего здания, которое мы пытаемся на нем построить. И единственную возможность этого не допустить я вижу в том, чтобы с самого начала попытаться охватить крайние случаи, а не только наиболее типичные. А эти крайние случаи предполагают наличие самых разных законов природы - и типа Периодического закона Менделеева, и типа "биогенетического" (кстати!) закона повторения стадий филогенеза в онтогенезе, и много чего еще, что вполне относится к категории "законов природы", но у чего не видно какого-то численного инварианта. Быть может, я просто плохо его искал? Или "бартиньевско-кузнецовский" всеобщий подход, применимый вроде бы ко всему на свете, в действительности ограничен лишь рамками единственной науки - физики, и к менее формализованным дисциплинам, начиная с химии, уже не вполне применим? Но ведь наука о творчестве куда менее формализована, чем химия...</p>
+<p>Допускаю любой вариант и заранее признателен за разъяснения.</p>
+<p>Заранее благодарен,</p>
+<p>Александр.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18266"></a>
+<article class="comment even comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18266#comment-18266" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">GIP</span> on <time datetime="2011-05-08T00:55:05Z"><span class="date-time">вс, 08/05/2011 - 00:55</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-16.jpg" alt="Изображение пользователя GIP." title="Изображение пользователя GIP." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author">Quote: </div>Генетические алгоритмы [1] и алгоритм решения изобретательских задач (АРИЗ) [2] связывает общее происхождение из эволюционной теории. Генетические алгоритмы используются для поиска оптимального решения путем естественного отбора и наследования. Поиск ответа в АРИЗ представляет собой процесс зарождения, развития и разрешения противоречий. </blockquote><br />
+АВВ, с  чего Вы взяли, что АРИЗ происходит из эволюционной теории?  "Процесс зарождения, развития и разрешения противоречий" - это  (согласно диалектике) революционный путь преобразования чего-нибудь. Конечно, не всегда с помощью АРИЗа складываются технические решения высоких уровней... Но это еще как посмотреть. Мне представляется, что всегда найдется такой уровень структуры ТС, в отношении которой корректно можно сказать, что изменился принцип действия. </p>
+<p><strong>Осознание</strong><br /><img src="http://i052.radikal.ru/1001/9c/8c221eb84a83.gif" alt="" /><br /><strong>==ИИ--&gt;</strong></p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18267"></a>
+<article class="comment odd clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18267#comment-18267" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">priven</span> on <time datetime="2011-05-08T03:12:21Z"><span class="date-time">вс, 08/05/2011 - 03:12</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">GIP</em> wrote: </div>"Процесс зарождения, развития и разрешения противоречий" - это (согласно диалектике) революционный путь преобразования чего-нибудь. Конечно, не всегда с помощью АРИЗа складываются технические решения высоких уровней... Но это еще как посмотреть. Мне представляется, что <strong>всегда найдется такой уровень структуры ТС, в отношении которой корректно можно сказать, что изменился принцип действия.</strong> </blockquote><br />
+С <strong>последними</strong> словами я согласен полностью. А вот относительно революций... ИМХО, противопоставление революции и эволюции не вполне корректно, если под эволюцией понимать процесс развития (закономерного изменения) сложных систем в целом (а только такое понимание слова "эволюция", на мой взгляд, в какой-то мере переносимо на технику). В этом случае революция - это лишь одна из ее разновидностей, "вырожденный случай", если хотите. </p>
+<p>Так же и с противоречиями: зарождение и развитие - какая ж это революция? Революция - лишь часть процесса, причем, по-моему, часть совсем не обязательно завершающая. Устранение "вторичных эффектов" - это ну никак не менее важная часть изобретательского процесса, нежели поиск идеи, разрешающей противоречие. Разумеется - это если человек изобретает не для того, чтобы "что-нибудь изобрести", а для того, чтобы решить реальную проблему. По-моему, здесь не все столь однозначно с революциями...</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18301"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18301#comment-18301" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-09T01:05:05Z"><span class="date-time">пн, 09/05/2011 - 01:05</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>Попробую ответить про химию в связи с системой Бартини, хотя изучал её (химию)настолько давно, что и забыл совсем. :). Да и вообще, я не химик, и не физик.<br />
+1. Система Бартини, представленная таблицей в LT-базисе, похожа на таблицу  Менделеева, особенно если её немного перестроить в вид, представленный в табл.1 в работе<br /><a href="http://www.metodolog.ru/01424/01424.html">http://www.metodolog.ru/01424/01424.html</a><br />
+собственно там и указано, что<br />
+"Важной характерной особенностью LT-таблицы Бартини является ее периодичность, в некотором смысле  подобная периодичности таблицы химических элементов Д.И. Менделеева." Вместо LT-базиса там использован VT-базис, где V-линейная скорость, т.е. V=L/T. В этом базисе диагональные тренды системы Бартини, обладающие инвариантностью, становятся вертикальными столбцами, как в таблице Менделеева. Численно инвариантность задается формулой n+m=s=Const, где n и m - показатели степеней размерностей длины и времени в таблице Бартини. Например, когда n=-m, и s=0, имеем тренд, группу, состоящую из таких физ. свойств, как мощность, сила, ток,разность потенциалов,линейная скорость, угол. Я утверждаю, что это так называемый родительский тренд, или поколение физ. величин, в котором передается свойство s=0.<br />
+    Как эта математическая формула может быть отражена словами, немного позднее скажу. Есть пример.<br />
+     Теперь про инвариант в химии, в таблице Менделеева. Там тоже вертикальные столбцы, куда входят элементы с разными номерами. Инвариантом группы или столбца являются одинаковые хим. свойства этих элементом, например, группа галогенов (фтор F, хлор Cl, бром Br, иод I, астат At) или группа инертных газов. Их одинаковость, или инвариант, проявляется в валентности, сродстве  в реакции с другими элементами системы Менделеева. А численно инвариант задается структурой электронной оболочки атомов этих элементов, сколько на каком уровне находится электронов. Их оболочки подобны. Есть повторяющаяся закономерность строения оболочек. И строение оболочек задается определенными кодами. Это математическое кодирование свойств хим. элементов.Инвариантность или подобие строения оболочек галогенов отражает свойство фрактальности, подобие малого в большом, и наоборот.<br />
+   Кроме того, инвариантом является и сам хим. элемент, который имеет несколько изотопов. Все изотопы одного элемента в хим. реакции одинаковы, проявляют одно свойство.<br />
+    Отсюда перескок снова к физ. величинам. Мощность, сила, ток,разность потенциалов,линейная скорость, угол образуют собой фрактальную группу. Что я в ней вижу общего с точки зрения изобретательства? Зачем нужен такой тренд?<br />
+     Для себя я нашел именно для этой группы хороший пример. Сейчас как раз планируется саммит-2011 по вопросу принципа действия технической системы. Так этот пример хорошо стыкуется с этим саммитом.<br />
+   Пример имеется в моей книжке, вернее, учебном пособии для студентов, которое скоро выйдет в печати.<br />
+"Рассмотрим,  например, тренд LmTn, m=n, от m=0 до m=5  «угол — линейная скорость — разность потенциалов — ток — сила — мощность». Его можно рассматривать как опорные точки развития наших представлений о работе  такой технической системы как вращающаяся электрическая машина<br />
+    Действительно, первая ступень - это угол φ поворота (вращения) проводника в магнитном поле. Вторая ступень – это представление о том, что вращение происходит с линейной скоростью  V. Следующее представление – возникновение на концах проводника разности потенциалов U.  Далее, при замыкании проводника в нем появляется  электрический ток I. Ток обладает силовым воздействием F. Сила F, умноженная на линейную скорость V вращения проводника, дает мощность P, развиваемую электрической машиной.<br />
+Таким образом обычно описывается работа вращающейся электрической машины, так мы воспринимаем своим мышлением её работу и понимаем её суть. Обратим внимание, что развитие идет от механических полей к электрическим и магнитным полям, также как исторически развивалась техника по аббревиатуре МаТХЭМ.<br />
+   Стационарное состояние тренда, определяемое равенством [LmTn] = Const,  выражает тот или иной физический закон сохранения. Законы сохранения, сформулированные человеком, отражают объективную реальность физического мира, и это отражение запоминается сознанием человека как некоторое представление о физических свойствах предметов. Тогда при поиске нового решения, передвигаясь по тренду  от одной клетки к другой, соседней клетке таблицы Р.О. Бартини, мы меняем в своем мышлении представление о том, каким физическим свойством должно обладать новое решение. Следовательно, движение по тренду есть не только некоторая ресурсная модель развития системы по законам развития технических систем, но и некоторая модель мышления в процессе поиска ответа. Только модель мышления представлена в «быстром» времени, поскольку определяется психологической инерцией изобретателя, а модель развития системы представлена в «медленном» или реальном времени. ".<br />
+      Тут в книжке еще картинка приведена: рамка с током, вращающаяся в магнитном поле. Все наверно, из физики помнят, не буду вставлять рис.  Там показаны угол поворота рамки, вектор линейной  скорости, разность потенциалов, ток, сила F.<br />
+     Другие тренды, столбцы VT-базиса, тоже должны давать какие-то  представления в нашем мышлении принципов действия технических систем, и не только действия, но и их развития. ИМХО. Пока здесь все.<br />
+Р.С.<br />
+Кстати, про системы физ. величин, про перестройку базисов и представление системы Бартини, её критику можно почитать в работах Чуева. Он свой базис вводит, на трех основных единицах, а не двух, как у Бартини.<br /><a href="http://www.chuev.narod.ru/">http://www.chuev.narod.ru/</a></p>
+<p>2. Интересным, на мой взгляд, является также направление непосредственного выхода на химию, на её уровень описания материи, используя таблицу Бартини.<br />
+    Здесь можно сработать по аналогии.<br />
+Ведь таблица Бартини не ограничена, диагональные тренды свойств ВПР идут слева снизу вправо наверх. Вверху справа П.Кузнецов ввел такое свойство как мобильность, которое связано не только с техникой, но и с организационными, экономическими представлениями. Кузнецов вообще пересчитывал всю физику в рубли, если так условно можно выразиться.<br />
+ Но для нас главное в том, что вверх направо идут организационно-экономические представления. Более высокий уровень описания, чем физика. Следовательно, если опускаться по таблице Бартини вниз налево, мы должны выходить на более глубинный уровень описания, т.е. на уровень химии.<br />
+    Как это может выглядеть конкретно, я не знаю. Я ж не химик, и не физик.<br />
+Р.С. Есть работа, в которой для таблицы Бартини вводится третья координата, как бы перпендикулярно времени- длине. На ней появляются такие понятия как информация, энтропия. Это все продолжатели дела П.Кузнецова, его школы в Дубне.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18302"></a>
+<article class="comment odd clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18302#comment-18302" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-09T01:21:19Z"><span class="date-time">пн, 09/05/2011 - 01:21</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>Ответ GIPу<br />
+<blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author">Quote: </div>АВВ, с чего Вы взяли, что АРИЗ происходит из эволюционной теории?</blockquote>.<br />
+Считаю, что привен ответил. Сначала эволюция, потом скачок - революция, это единый процесс, а математика пришла из эволюционной биологии. Уравнения развития типа Лоттки-Вольтерра, с современными дополнениями, с выходом на бифуркации, катастрофы (математические), хаотические колебания. Стыковка эволюционного развития АП-ТП-ФП со скачком (революция)в точке Р (решение).</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18303"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18303#comment-18303" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">priven</span> on <time datetime="2011-05-09T07:50:53Z"><span class="date-time">пн, 09/05/2011 - 07:50</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">ABB</em> wrote: </div>Ответ GIPу<br />
+<blockquote class="quote-msg quote-nest-2 even"><div class="quote-author">Quote: </div>АВВ, с чего Вы взяли, что АРИЗ происходит из эволюционной теории?</blockquote>.<br />
+Считаю, что привен ответил. Сначала эволюция, потом скачок - революция, это единый процесс, а математика пришла из эволюционной биологии. Уравнения развития типа Лоттки-Вольтерра, с современными дополнениями, с выходом на бифуркации, катастрофы (математические), хаотические колебания. Стыковка эволюционного развития АП-ТП-ФП <strong>со скачком (революция)в точке Р (решение)</strong>.</blockquote><br />
+Я бы все же уточнил: не "решение", а <strong>идея решения.</strong> А само решение получается уже в результате второй половины эволюционного процесса, и никаких революций здесь уже обычно нет - есть процесс последовательного улучшения, "довндения" и "дожимания" решения. Аналогично, согласитесь, самая большая бифуркация в жизни человека - это отнюдь не старческие болячки.</p>
+<p>А за пояснение в части химии спасибо. Иногда непрофессионал видит ситуацию в чем-то точнее, чем профессионал. Я химик, и здесь - тот самый случай. Я ведь хорошо знаю, что сходство валентностей в группах - в общем случае миф и "сказки бабушки Арины" (типичная валентность церия - 4, а не 3, свинца - 2, а не 4, меди - 2 вместо 1, у серы возможны любые четные валентности, кроме 8, у азота - любая от 1 до 5, и т.д.), одинаковость химического поведения - в общем случае миф еще блольший (ага, углерод, германий и свинец ну та-а-ак "похожи" по своей химии, что их друг от друга и не отличить почти что,  да? а особенно похожи ближайшие аналоги кислородных соединений - углекислый газ  CO2 и кремнезем SiO2...), азотная кислота HNO3 в рамках представлений об электронных оболочках вообще не должна существовать, и так далее. Но Вы, наверное, правы - какие-то инварианты  в группах есть, хотя и совершенно не те, о которых Вы упомянули. Надо будет подумать... Вопрос небезынтересный. Правда, в моем представлении, сугубо теоретический - а я "прикладник"... В любом случае спасибо за информацию к размышлению.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18318"></a>
+<article class="comment odd clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18318#comment-18318" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-09T16:23:51Z"><span class="date-time">пн, 09/05/2011 - 16:23</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">priven</em> wrote: </div>Я бы все же уточнил: не "решение", а <strong>идея решения.</strong> А само решение получается уже в результате второй половины эволюционного процесса, и никаких революций здесь уже обычно нет - есть процесс последовательного улучшения, "довндения" и "дожимания" решения.<br />
+</blockquote> Пожалуйста, уточняйте, если охота. Я за термины не цепляюсь. Мне только хотелось указать на скачкообразное изменение, перерыв постепенности. А как его назвать, мне все равно.Хоть озарение, хоть идея решения, хоть решение. Главное, что стадии эволюционного развития прерываются скачками революций, моментами разрешения накопившихся противоречий.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18319"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18319#comment-18319" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-09T16:36:58Z"><span class="date-time">пн, 09/05/2011 - 16:36</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">priven</em> wrote: </div>А за пояснение в части химии спасибо. Иногда непрофессионал видит ситуацию в чем-то точнее, чем профессионал. Я химик, и здесь - тот самый случай. Я ведь хорошо знаю, что сходство валентностей в группах - в общем случае миф ....... Но Вы, наверное, правы - какие-то инварианты  в группах есть, хотя и совершенно не те, о которых Вы упомянули. Надо будет подумать... Вопрос небезынтересный. Правда, в моем представлении, сугубо теоретический - а я "прикладник"... В любом случае спасибо за информацию к размышлению.</blockquote> Я согласен с Вами про валентность  и т.п., так как в этом ничего не понимаю. Я исхожу из того, что все элементы разделены по группам каких-то одинаковых свойств, и закон Менделеева называется периодическим, т.е. через какое то число номеров элементов это  свойство повторяется.Здесь мы с вами совпадаем. Это свойство и есть инвариант. Если структура электронной оболочки атомов его не задает математически, тогда я не знаю, как его задать математически.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18320"></a>
+<article class="comment odd clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18320#comment-18320" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">priven</span> on <time datetime="2011-05-09T16:58:12Z"><span class="date-time">пн, 09/05/2011 - 16:58</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>Еще один вопрос автору по существу статьи.</p>
+<p>Правильно ли я понял, что степени при L и T для любой физической величины могут быть только целыми? Если да, то правильно ли я понял, что не существует (не может существовать) физических законов (или, более узко, законов сохранения), в которых бы хотя бы одна из этих степеней была дробной?</p>
+<p>Если ответы на оба предыдущих вопроса утвердительны, то из этого, вроде бы, следует ряд жестких ограничений на показатели степеней при физических величинах в законах и уравнениях. Например, масса ни в одном законе не может быть ни в какой дробной степени, а вот, скажем, плотность - может: из нее можно взять квадратный корень без потери целочисленности. Подтверждаются ли эти соотношения в реальности? Или я выше в чем-то не прав?</p>
+<p>Заранее благодарен.</p>
+<p>С уважением,</p>
+<p>Александр Привень.</p>
+<p>P.S. Заранее отвергаю возможность формального ответа на этот вопрос путем возведения всех частей уравнения в такую степень, чтобы все показатели стали целочисленными. Закон сохранения энергии можно, конечно, записать и для е-квадрат, но тогда это, на мой взгляд, будет уже малость ДРУГОЙ закон, с ДРУГИМ определением базового понятия "энергия".</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18323"></a>
+<article class="comment even comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18323#comment-18323" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">GIP</span> on <time datetime="2011-05-09T17:02:36Z"><span class="date-time">пн, 09/05/2011 - 17:02</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-16.jpg" alt="Изображение пользователя GIP." title="Изображение пользователя GIP." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">priven</em> wrote: </div><blockquote class="quote-msg quote-nest-2 even"><div class="quote-author"><em class="placeholder">GIP</em> wrote: </div>"Процесс зарождения, развития и разрешения противоречий" - это (согласно диалектике) революционный путь преобразования чего-нибудь. Конечно, не всегда с помощью АРИЗа складываются технические решения высоких уровней... Но это еще как посмотреть. Мне представляется, что <strong>всегда найдется такой уровень структуры ТС, в отношении которой корректно можно сказать, что изменился принцип действия.</strong> </blockquote><br />
+С <strong>последними</strong> словами я согласен полностью. </p>
+<p>А вот относительно революций... ИМХО, противопоставление революции и эволюции не вполне корректно, если под эволюцией понимать процесс развития (закономерного изменения) сложных систем в целом (а только такое понимание слова "эволюция", на мой взгляд, в какой-то мере переносимо на технику). В этом случае революция - это лишь одна из ее разновидностей, "вырожденный случай", если хотите.<br />
+</blockquote><br />
+Александр, эти два понятия противопоставляет философия.<br />
+<blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author">Quote: </div><a href="http://filosof.historic.ru/enc/item/f00/s12/a001284.shtml">Эволюция и революция - понятия, применяемые для характеристики различных сторон развития.</a><br />
+Под Э. в широком смысле понимается изменение бытия и сознания (в этом смысле понятие Э. близко по содержанию к понятию развития), включающее в себя как количественные, так и качественные преобразования. Соотношение последних в развитии и выражается через соотнесение понятий Э. (в узком смысле) и Р. Соответственно термином Э. обозначаются более или менее медленные, постепенные, количественные изменения, а Р. - коренные, качественные, скачкообразно осуществляющиеся преобразования. Э. и р. выражает закон перехода количественных изменений в качественные. … Э. и р.- необходимые моменты всякого развития: Э. подготавливает Р., а последняя завершает первую. </blockquote><br />
+Вы что - отвергаете философию?</p>
+<p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author">Quote: </div><br />
+Так же и с противоречиями: зарождение и развитие - какая ж это революция? Революция - лишь часть процесса, причем, по-моему, часть совсем не обязательно завершающая. Устранение "вторичных эффектов" - это ну никак не менее важная часть изобретательского процесса, нежели поиск идеи, разрешающей противоречие. Разумеется - это если человек изобретает не для того, чтобы "что-нибудь изобрести", а для того, чтобы решить реальную проблему. По-моему, здесь не все столь однозначно с революциями...</blockquote><br />
+Однозначность появится, если разобраться, являются ли всякие ТП и ФП теми, которые диалектика соотносит с процессом революции.</p>
+<p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author">Quote: </div><a href="http://www.prog10.narod.ru/glava2_4.htm">Диалектику можно определить как учение о развитии</a> бытия, познания и мышления, источником которого (развития) признается становление и разрешение противоречий в самой сущности развивающихся объектов.<br />
+</blockquote><br />
+Из цитаты следует, что развивают объекты только те противоречия, которые касаются сущности, в случае техники, технических объектов и технических систем.  </p>
+<p>Генетический  алгоритм ни с ТО, ни с ТС  не работает. Поэтому не вполне понятно, что следует считать ТС, например, в задаче о запайке ампул с лекарством. Я, понятно, вижу там две ТС.  А что видите Вы? </p>
+<p>А также - что именно, на Ваш взгляд,  меняется там так и таким образом, что можно сказать, что произошло  эволюционное изменение? </p>
+<p><strong>Осознание</strong><br /><img src="http://i052.radikal.ru/1001/9c/8c221eb84a83.gif" alt="" /><br /><strong>==ИИ--&gt;</strong></p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18324"></a>
+<article class="comment odd comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18324#comment-18324" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">Gregory Frenklach</span> on <time datetime="2011-05-09T17:31:24Z"><span class="date-time">пн, 09/05/2011 - 17:31</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-1284-1563992530.jpg" alt="Изображение пользователя Gregory Frenklach." title="Изображение пользователя Gregory Frenklach." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>У меня ощущение, что таблица размерностей должна быть не абсолютной а относительной.<br />
+Тогда набор взаимосвязанных величин вроде силы, работы, импульса силы, давления и т.д. даст какую-то частную таблицу.<br />
+Взаимосвязанный набор таких частных таблиц даст даст описание (даже не знаю, как назвать) "параметрического времени-пространства" что ли...<br />
+При этом связи между частными таблицами в этом "параметрическом времени-пространстве" для меня выглядят интереснее, чем сами таблицы.<br />
+Пока не понял, зачем мне это надо, но интересно:)</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18325"></a>
+<article class="comment even comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18325#comment-18325" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">GIP</span> on <time datetime="2011-05-09T18:21:18Z"><span class="date-time">пн, 09/05/2011 - 18:21</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-16.jpg" alt="Изображение пользователя GIP." title="Изображение пользователя GIP." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">ABB</em> wrote: </div>Ответ GIPу<br />
+<blockquote class="quote-msg quote-nest-2 even"><div class="quote-author">Quote: </div>АВВ, с чего Вы взяли, что АРИЗ происходит из эволюционной теории?</blockquote>.<br />
+Считаю, что привен ответил. Сначала эволюция, потом скачок - революция, это единый процесс, а математика пришла из эволюционной биологии. Уравнения развития типа Лоттки-Вольтерра, с современными дополнениями, с выходом на бифуркации, катастрофы (математические), хаотические колебания. <strong>Стыковка эволюционного развития АП-ТП-ФП со скачком (революция)в точке Р (решение)</strong>.</blockquote><br /><strong>Теперь еще более непонятно...</strong><br />
+Ибо если<br />
+<blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author">Quote: </div>Поиск ответа в АРИЗ представляет собой процесс зарождения, развития и разрешения противоречий,<br />
+</blockquote><br />
+то это не реальный процесс революционного изменения, а  умозрительное противоречивое моделирование с помощью элементов исходной ситуацией.</p>
+<p>И еще очень большой вопрос, действительно ли можно утверждать, что новое техническое решение будет революционным скачком в развитии, потому что вполне может быть, что не существует ТС, для которое это ТР применимо в полном своем соответствии.</p>
+<p>Поэтому можно говорить лишь об умозрительной эволюции, умозрительной революции, и т.д. </p>
+<p>И, соответственно, вторично поставить вопрос ...<br />
+<blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author">Quote: </div>АВВ, с чего Вы взяли, что АРИЗ происходит из эволюционной теории?</blockquote>.<br /><strong>Осознание</strong><br /><img src="http://i052.radikal.ru/1001/9c/8c221eb84a83.gif" alt="" /><br /><strong>==ИИ--&gt;</strong></p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18326"></a>
+<article class="comment odd comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18326#comment-18326" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">GIP</span> on <time datetime="2011-05-09T18:38:12Z"><span class="date-time">пн, 09/05/2011 - 18:38</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-16.jpg" alt="Изображение пользователя GIP." title="Изображение пользователя GIP." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">АВВ</em> wrote: </div>Поиск ответа в АРИЗ представляет собой процесс зарождения, развития и разрешения противоречий. Исходными данными в обоих случаях является изобретательская ситуация, но АРИЗ относится к направленным методам поиска решения, а генетические алгоритмы имеют случайную составляющую. ...</p>
+<p>Как указывает автор АРИЗ Г.С.Альтшуллер, "изобретательская ситуация представляет собой клубок сложных проблем, и нужно каким-то образом выделить из этого клубка единственно правильную задачу". Правильная задача отыскивается в наиболее "узком" месте этого клубка, там, где выявляется наиболее обостренное противоречие неравномерного развития.<br />
+....<br />
+ Однако не всегда удается успешно выявить "узкое" место в изобретательской ситуации. Кроме того, таких "узких" мест может быть несколько. Поэтому наряду с направленным методом поиска необходим некоторый перебор вариантов. <strong>В этом случае дополнение АРИЗ генетическими алгоритмами поиска представляет собой перспективное и актуальное направление.</strong><br />
+</blockquote><br />
+Если так поступить, то тем самым Вы в процесс поиска пути избавления  от имеющейся в ситуации трудности вводите то, что смыслом АРИЗ отвергается:</p>
+<p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author">Quote: </div>Одна и та же ситуация может породить множество различных изобретательских задач. ... <strong><a href="http://www.altshuller.ru/triz/triz1.asp">Чтобы применить АРИЗ, надо перевести ситуацию в конкретную задачу</a>.</strong></p>
+<p>Изобретатели, работающие методом проб и ошибок, зачастую не переводят ситуацию в задачу. В результате им приходится работать с комплексом задач. Поисковое поле расширяется. Простая задача растворяется в толпе других задач, трудности решения увеличиваются.<br />
+</blockquote><br />
+Не составляет труда понять, что Ваш подход, по сути, не дополняет АРИЗ,  а пытается исключить  необходимость его применения :)</p>
+<p><strong>Осознание</strong><br /><img src="http://i052.radikal.ru/1001/9c/8c221eb84a83.gif" alt="" /><br /><strong>==ИИ--&gt;</strong></p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18327"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18327#comment-18327" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-09T19:22:11Z"><span class="date-time">пн, 09/05/2011 - 19:22</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">priven</em> wrote: </div>Еще один вопрос автору по существу статьи.Правильно ли я понял, что степени при L и T для любой физической величины могут быть только целыми?<br />
+.</blockquote>У Бартини я нигде не встречал дробной мерности. Но, учитывая, что с той поры были обнаружены геометрические объекты, имеющие  дробную мерность пространства, может быть,  есть и дробные степени, по крайней мере, пространства. Я имею в виду хаотические аттракторы.<br />
+Фрактальная размерность аттрактора Лоренца равна 2.06 [Sano M and Sawada Y, 1985]. В этом случае, например, переход от представления линии к представлению поверхности в нашем сознании (или в подсознании) происходит не дискретно, а может быть, и непрерывно.<br />
+    Но здесь ничего 100% точного сказать не могу.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18328"></a>
+<article class="comment odd clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18328#comment-18328" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-09T19:33:16Z"><span class="date-time">пн, 09/05/2011 - 19:33</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">GIP</em> wrote: </div>[<br />
+Если так поступить, то тем самым Вы в процесс поиска пути избавления  от имеющейся в ситуации трудности вводите то, что смыслом АРИЗ отвергается:</blockquote><br />
+Отвергается, я согласен. Смыслом АРИЗа отвергается. Ну и что? Никто и никогда не в состоянии приказать своему мышлению: решай задачку только по АРИЗу, за шаг влево-вправо - расстрел!<br />
+   АРИЗ - это одно, а другое дело - следование ему. Подсознание в карман не спрятать.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18329"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18329#comment-18329" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">priven</span> on <time datetime="2011-05-09T19:36:19Z"><span class="date-time">пн, 09/05/2011 - 19:36</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>Геннадий иванович, я пока что не вижу противоречия между тем, что говорите Вы, и тем, что предлагает автор. Про АРИЗ и эволюцию спорить сейчас не буду (хотя <a href="http://www.metodolog.ru/node/893">здесь</a> я высказал мнение, в чем-то сходное с мнением автора статьи). Замечу только, что АРИЗ, насколько мне известно, <strong>не содержит</strong> инструментов для "перевода ситуации в задачу", а требует, чтобы решатель <strong>сам</strong> произвел эту операцию и сформулировал задачу (пусть и в очень предварительном виде) уже на "нулевом" шаге. А автор как раз и предлагает способ выявить потенциальную задачу.</p>
+<p>Опять же, я не хочу обсуждать, насколько именно этот способ применим на практике. Автор статьи технических задач по АРИЗу, как я понял, не решает, а значит - с него и спрос здесь невелик. А рациональное зерно в статье, как мне кажется, есть - хотя я и не уверен, что оно может быть в нынешнем виде реализовано в изобретательской практике, скорее я это самое зерно вижу в попытке некоей теоретической систематизации того, на что раньше не обращали (или почти не обращали) никакого внимания, и, возможно, зря.</p>
+<p>С уважением,</p>
+<p>Александр.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18330"></a>
+<article class="comment odd clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18330#comment-18330" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-09T19:44:22Z"><span class="date-time">пн, 09/05/2011 - 19:44</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">GIP</em> wrote: </div>[Поэтому можно говорить лишь об умозрительной эволюции, умозрительной революции, и т.д. </blockquote>Ну и пусть, умозрительной, и эволюции, и революции. Я ж не против. Мы задачку сначала в уме решаем. Там все и происходит, и умозрительная эволюция, и умозрительная революция (озарение по Фрейду).</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18331"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18331#comment-18331" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-09T20:23:01Z"><span class="date-time">пн, 09/05/2011 - 20:23</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">priven</em> wrote: </div> Автор статьи технических задач по АРИЗу, как я понял, не решает, а значит - с него и спрос здесь невелик. А рациональное зерно в статье, как мне кажется, есть - хотя я и не уверен, что оно может быть в нынешнем виде реализовано в изобретательской практике, скорее я это самое зерно вижу в попытке некоей теоретической систематизации того, на что раньше не обращали (или почти не обращали) никакого внимания, и, возможно, зря.</blockquote> Задач по АРИЗу я не решаю.Это верно. Я скорее использую понятийный аппарат АРИЗа для своих целей, генетического поиска физического свойства решения. Мне же приоритеты нужны, каких потомков оставлять в результате скрещивания.А здесь анализ ВПР очень помогает, какие ресурсы есть в задаче.  Подход  ИКР-овский - использование имеющихся пространственно-временных и вещественно-полевых ресурсов, имеющихся в задаче - больше вероятность выживания потомка.<br />
+    Еще замечание. В базисе Бартини в ТРИЗе пока не работают. Но это не значит, что метод размерностей в ТРИЗе не используется. Есть отличная работа В.Н.Глазунова "Параметрический метод разрешения противоречий в технике". М.1990 г. Там есть метод размерностей для решения изобретательских задач. Там наша обычная система СИ. И генетических алгоритмов нет :)<br />
+   И по-моему, у Ю.П.Саломатова была небольшая статеечка, где он тоже использовал размерности. Но сейчас с ходу, не найти.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18332"></a>
+<article class="comment odd comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18332#comment-18332" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">Gregory Frenklach</span> on <time datetime="2011-05-09T20:37:26Z"><span class="date-time">пн, 09/05/2011 - 20:37</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-1284-1563992530.jpg" alt="Изображение пользователя Gregory Frenklach." title="Изображение пользователя Gregory Frenklach." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">ABB</em> wrote: </div> В базисе Бартини в ТРИЗе пока не работают. Но это не значит, что метод размерностей в ТРИЗе не используется. Есть отличная работа В.Н.Глазунова "Параметрический метод разрешения противоречий в технике". М.1990 г. Там есть метод размерностей для решения изобретательских задач.</blockquote></p>
+<p>А вот это уже интересно.<br />
+Пользу использования анализа размерностей отрицать глупо.<br />
+Было бы интересно "скрестить" подобный анализ с подходящими трендами в ТРИЗ.<br />
+Лично я вижу несколько таких трендов-кандидатов на "скрещивание":)</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18333"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18333#comment-18333" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">priven</span> on <time datetime="2011-05-09T20:44:01Z"><span class="date-time">пн, 09/05/2011 - 20:44</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">ABB</em> wrote: </div>Еще замечание. В базисе Бартини в ТРИЗе пока не работают. Но это не значит, что метод размерностей в ТРИЗе не используется. Есть отличная работа В.Н.Глазунова "Параметрический метод разрешения противоречий в технике". М.1990 г. Там есть метод размерностей для решения изобретательских задач. Там наша обычная система СИ. И генетических алгоритмов нет :)<br />
+И по-моему, у Ю.П.Саломатова была небольшая статеечка, где он тоже использовал размерности. Но сейчас с ходу, не найти.</blockquote><br />
+Ну, дык! Кто ж спорит-то с размерностями? На мой непросвещенный взгляд химика, без этого никак. А за ссылку спасибо - посмотрю обязательно. Я сейчас как раз пытась понять, какие формализуемые факторы могут помочь в решении самых разных задач, - без какого-либо предварительного отсева по "философическим" соображениям, а исключительно с точки зрения простоты и эффективности их использования. Ведь чем проще инструмент, тем выше шанс, что им сможет воспользоваться большее число людей. А что может быть для технаря проще, чем физическая размерность? Потому и "ухватился" - искренне надеюсь, что не зря.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18334"></a>
+<article class="comment odd clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18334#comment-18334" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">priven</span> on <time datetime="2011-05-09T20:48:23Z"><span class="date-time">пн, 09/05/2011 - 20:48</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">Gregory Frenklach</em> wrote: </div>Пользу использования анализа размерностей отрицать глупо.<br />
+Было бы интересно "скрестить" подобный анализ с подходящими трендами в ТРИЗ.<br />
+Лично я вижу несколько таких трендов-кандидатов на "скрещивание":)</blockquote><br />
+Вы имеете в виду повышение идеальности, переход в новое измерение, "моно-би-поли" (это первое, что приходит на память в данном контексте) и иже с ними, или что-то иное?</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18335"></a>
+<article class="comment even comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18335#comment-18335" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">Gregory Frenklach</span> on <time datetime="2011-05-09T21:04:42Z"><span class="date-time">пн, 09/05/2011 - 21:04</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-1284-1563992530.jpg" alt="Изображение пользователя Gregory Frenklach." title="Изображение пользователя Gregory Frenklach." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>Точка-&gt;линия-&gt;плоскость-&gt;объём, величина-&gt;скорость изменения величины-&gt;ускорение изменения величины - это первые кандидаты.<br />
+Но если бы этим ограничивалось не стоило бы даже упоминать.<br />
+Интереснее получается если наложить таблицу размерностей (относительную, а не абсолютную) на эти тренды.<br />
+Такое сочетание указывает с одной стороны точнее, что надо менять, а с другой стороны выводит за границы временного или пространственного тренда в ТРИЗ.<br />
+Есть о чём подумать и инструмент может получиться весьма и весьма прикладным.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18336"></a>
+<article class="comment odd comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18336#comment-18336" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">GIP</span> on <time datetime="2011-05-10T01:36:46Z"><span class="date-time">вт, 10/05/2011 - 01:36</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-16.jpg" alt="Изображение пользователя GIP." title="Изображение пользователя GIP." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">ABB</em> wrote: </div><blockquote class="quote-msg quote-nest-2 even"><div class="quote-author"><em class="placeholder">GIP</em> wrote: </div>Поэтому можно говорить лишь об умозрительной эволюции, умозрительной революции, и т.д. </blockquote>Ну и пусть, умозрительной, и эволюции, и революции. Я ж не против. Мы задачку сначала в уме решаем. Там все и происходит, и умозрительная эволюция, и умозрительная революция (озарение по Фрейду).</blockquote><br />
+<blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">ABB</em> wrote: </div><blockquote class="quote-msg quote-nest-2 even"><div class="quote-author"><em class="placeholder">GIP</em> wrote: </div><br />
+Если так поступить, то тем самым Вы в процесс поиска пути избавления  от имеющейся в ситуации трудности вводите то, что смыслом АРИЗ отвергается:</blockquote><br />
+Отвергается, я согласен. Смыслом АРИЗа отвергается.<br />
+Ну и что? Никто и никогда не в состоянии приказать своему мышлению: решай задачку только по АРИЗу, за шаг влево-вправо - расстрел!<br />
+АРИЗ - это одно, а другое дело - следование ему. Подсознание в карман не спрятать.</blockquote><br />
+АВВ, если посмотреть в корень Вашего алгоритма, то это обычный классификационный подход, только более широкий, чем у Фила. </p>
+<p>Вы говорите, что применяете математический аналог ТП. Но это  все же не ТП, значит, и ФП за ним или нет, или оно тоже имеет иной смысл. </p>
+<p>Лично я уверен, что происходит не работа с противоречиями, а определенная перекодировка смысла задачной ситуации  на более высокой степени общности. Это весьма напоминает мне метод фокальных объектов, в котором также стыкуются случайные в общем-то признаки. Отличие - в том, что  у Вас применен множественный выбор комбинаций признаков  на основе размерностей. Хорошо это или плохо? </p>
+<p>Собственно, кому как :)<br />
+Лично мне такой подход видится сложным, потому что я использую иной путь изобретения нового, и работаю именно с ориентацией на сущностное развитие, а не на эволюцию -- поэтому мне эрзац-противоречия не подходят.</p>
+<p>Кроме того, это пока "рыба" вообще-то, с помощью которой даже Вы, автор предлагаемого алгоритма, только продекларировали, но не показали возникновение несколько родительских трендов на примере очень простой в общем-то задачи о запайки ампул.</p>
+<p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author">Quote: </div>Например, в рассматриваемой задаче «узкое» место – это пара пламя-ампула (лекарство), все остальные вещества и поля с их свойствами исключаются из модели. Хорошая запайка оценивается длиной оплавленной части капилляра, а порча лекарства - температурой пламени. Скрещивание двух факторов - длины и температуры дает лишь один родительский тренд.</p>
+<p> Использование же генетического алгоритма позволяет использовать структурную модель более широко, предположив в ней наличие многих противоречий в виде бинарных отношений свойств веществ и полей. Благодаря этому появляется несколько родительских трендов. Если скрещивание выводит особь на нереализуемый в трехмерном пространстве тренд, то она (особь) скрещивается с третьим фактором, возвращающим потомка на реализуемый тренд, т.е. в этом случае используются уже тернарные отношения между свойствами.<br />
+</blockquote><br />
+Почему один - понятно: Вы задачу не решали, а просто приставили в качестве примера известную учебную задачу. А если бы коснулись множественности трендов. то была бы потеряна простота поиска решения. <strong>Неужто Бартини шел таким сложным путем? </strong></p>
+<p>Думаю, что нет... Предположительно вижу его тропу, ибо идея рационального перекодирования симпатична. Но она у Вас оторвана от диалектики, тогда как место "ИИ" - именно в ней.</p>
+<p><strong>Осознание</strong><br /><img src="http://i052.radikal.ru/1001/9c/8c221eb84a83.gif" alt="" /><br /><strong>==ИИ--&gt;</strong></p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18347"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18347#comment-18347" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">Александр Кудрявцев</span> on <time datetime="2011-05-10T09:05:12Z"><span class="date-time">вт, 10/05/2011 - 09:05</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">Gregory Frenklach</em> wrote: </div>Точка-&gt;линия-&gt;плоскость-&gt;объём, величина-&gt;скорость изменения величины-&gt;ускорение изменения величины - это первые кандидаты.<br />
+Но если бы этим ограничивалось не стоило бы даже упоминать.<br />
+...<br />
+Есть о чём подумать и инструмент может получиться весьма и весьма прикладным.</blockquote><br />
+Да, если получится из таблицы вытащить еще некоторое количество трендов, подобных описанным, но не таих известных, то таблица уже оправдает себя.<br />
+Уважаемый Александр Борисович, не могли бы Вы помочь в этом вопросе?</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18351"></a>
+<article class="comment odd comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18351#comment-18351" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">Gregory Frenklach</span> on <time datetime="2011-05-10T14:01:29Z"><span class="date-time">вт, 10/05/2011 - 14:01</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-1284-1563992530.jpg" alt="Изображение пользователя Gregory Frenklach." title="Изображение пользователя Gregory Frenklach." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>Ещё как получится!<br />
+Многие величины вроде давление (на плоскость)-&gt;давление(на линию)-&gt;сила-&gt;момент (или работа)<br />
+или заряд-&gt;ток-&gt;? это те же самые тренды, но для других величин.<br />
+Кроме того, относительные таблицы, как тот прапорщик позволят объединить время с пространством и "копать от забора и до обеда":)<br />
+Даже примерный алгоритм работы с трендами просматривается.<br />
+1. Определение критического параметра (который надо изменять или измерять)<br />
+2. Нахождение этого параметра в одной из относительных таблиц<br />
+3. Выбор с помощью смещения размерностей другого параметра для измерения или изменения (направление смещения зависит от того желаем ли мы уменьшить вред или повысить пользу)<br />
+4. Пространство возможных величин изменения или измерения находтся между осями на пересечении которых расположен параметр<br />
+Очень может быть, что так с этой таблицей и работали... :)</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18355"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18355#comment-18355" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">priven</span> on <time datetime="2011-05-10T14:29:10Z"><span class="date-time">вт, 10/05/2011 - 14:29</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">Gregory Frenklach</em> wrote: </div>Ещё как получится!<br />
+Многие величины вроде давление (на плоскость)-&gt;давление(на линию)-&gt;сила-&gt;момент (или работа)<br />
+или заряд-&gt;ток-&gt;? это те же самые тренды, но для других величин.<br />
+Кроме того, относительные таблицы, как тот прапорщик позволят объединить время с пространством и "копать от забора и до обеда":)<br />
+Даже примерный алгоритм работы с трендами просматривается.<br />
+1. Определение критического параметра (который надо изменять или измерять)<br />
+2. Нахождение этого параметра в одной из относительных таблиц<br />
+3. Выбор с помощью смещения размерностей другого параметра для измерения или изменения (направление смещения зависит от того желаем ли мы уменьшить вред или повысить пользу)<br />
+4. Пространство возможных величин изменения или измерения находтся между осями на пересечении которых расположен параметр<br />
+Очень может быть, что так с этой таблицей и работали... :)</blockquote></p>
+<p>Вполне согласен с Григоринем, но есть одно маленькое "но". Если речь идет просто о производных по временнной или пространственной координате, то все понятно... и без таблицы. А если не о них - то тогда о чем еще?</p>
+<p>Здесь бы очень хотелось увидить какой-нибудь нетривиальный пример, когда смещение по таблице дало бы интересный результат, не вытекающий из простого дифференцирования величин. Пример с ампулами, сказать по правде, меня пока еще не сильно убедил: то ли там в выводе какие-то неочевидные для меня звенья опущены, то ли что-то еще, но (чисто субъективно - по ощущениям) очень похоже на "подгонку под заранее заданный результат", а не на "решение, найденое по методике". А здесь, по-моему, тот случай, когда методика могла бы сработать и без подгонки - что и хотелось бы увидеть.</p>
+<p>Я "чувствую, что в этом что-то есть", но, увы, пока что не могу понять, что именно...</p>
+<p>С уважением,</p>
+<p>Александр.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18356"></a>
+<article class="comment odd comment-with-picture clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18356#comment-18356" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted with-user-picture">
+    <p class="author-datetime">Submitted by <span class="username">Gregory Frenklach</span> on <time datetime="2011-05-10T15:05:41Z"><span class="date-time">вт, 10/05/2011 - 15:05</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+      <div class="user-picture">
+    <img class="image-style-none" src="https://www.metodolog.ru/sites/default/files/pictures/picture-1284-1563992530.jpg" alt="Изображение пользователя Gregory Frenklach." title="Изображение пользователя Gregory Frenklach." />  </div>
+    <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>Ну с этой-то задачей как раз всё очень просто:)<br />
+1. Определение критического параметра (который надо изменять или измерять) - температура - не надо мудрствовать лукаво:)<br />
+2. Нахождение этого параметра в одной из относительных таблиц - допустим нашли :)<br />
+3. Выбор с помощью смещения размерностей другого параметра для измерения или изменения (направление смещения зависит от того желаем ли мы уменьшить вред или повысить пользу) - температура наносит вред лекарству =&gt; температуру в объёме-&gt;температура по поверхности-&gt;температура по линии-&gt;температура в точке (даёт направление не так ли?)<br />
+4. Пространство возможных величин изменения или измерения находтся между осями на пересечении которых расположен параметр - другая линия временная =&gt; можно "поиграть" вместо изменения температуры со скоростью и ускорением этих изменений в пространстве, на поверхности, по линии и даже в точке.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18377"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18377#comment-18377" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-11T19:19:58Z"><span class="date-time">ср, 11/05/2011 - 19:19</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">GIP</em> wrote: </div><br />
+АВВ, если посмотреть в корень Вашего алгоритма, то это обычный классификационный подход, только более широкий, чем у Фила. </blockquote>Ну и пусть, мне все равно, как это называть. Пусть как у Фила, только более широко. :)<br />
+<blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">GIP</em> wrote: </div><br />
+Вы говорите, что применяете математический аналог ТП. Но это  все же не ТП, значит, и ФП за ним или нет, или оно тоже имеет иной смысл. </blockquote> Нет, это все же ТП, и ФП, а если и имеет другой смысл, то мне опять таки  все равно.<blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">GIP</em> wrote: </div><br />
+Лично я уверен, что происходит не работа с противоречиями, а определенная перекодировка смысла задачной ситуации  на более высокой степени общности. Это весьма напоминает мне метод фокальных объектов, в котором также стыкуются случайные в общем-то признаки. Отличие - в том, что  у Вас применен множественный выбор комбинаций признаков  на основе размерностей. Хорошо это или плохо? </p>
+<p>Собственно, кому как :)<br />
+Лично мне такой подход видится сложным, потому что я использую иной путь изобретения нового, и работаю именно с ориентацией на сущностное развитие, а не на эволюцию -- поэтому мне эрзац-противоречия не подходят.</p>
+<p>Кроме того, это пока "рыба" вообще-то, с помощью которой даже Вы, автор предлагаемого алгоритма, только продекларировали, но не показали возникновение несколько родительских трендов на примере очень простой в общем-то задачи о запайки ампул.</blockquote><br />
+Ну и что, что это рыба? Я никогда этого и не скрывал. А показать несколько родительских трендов, когда ясно, как они получаются, не так уж и сложно. А с противоречиями все-таки работал, они мне дают функцию приспособленности потомка, без них не могу выйти на родительский тренд. А нахождение свойства на тренде также дает приоритет или более высокое значение функции приспособленности потомку. Только я в противоречии знаки не использую, вот и все. В ТП  одно свойство условно +, а другое - , а у меня (следуя Бартини) оба фактора с +. Я должен и хорошую температуру лекарства иметь, и хорошую длину оплавленного капилляра ампулы.<br />
+<blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">GIP</em> wrote: </div><br />
+Почему один - понятно: Вы задачу не решали, а просто приставили в качестве примера известную учебную задачу. А если бы коснулись множественности трендов. то была бы потеряна простота поиска решения. <strong>Неужто Бартини шел таким сложным путем? </strong></p>
+<p>Думаю, что нет... Предположительно вижу его тропу, ибо идея рационального перекодирования симпатична. </blockquote><br />
+Конечно не решал. Зачем мне её решать, если она уже 100 раз была решена до меня?<br />
+   Каким путем шел Бартини, я этого не знаю, если Вы знаете, дайте, пожалуйста, ссылку :).<br />
+   Это реконструкция того, что я называю методом Бартини, но фактически такого метода нет. Каюсь, я поступил так нарочно, не случайно. :) Ну, кто я? А то Бартини! :) Попробовали бы Вы его критиковать, что он не решал изобретательские задачи! У него 60 проектов самолетов! А я только запайку ампулы решал, да молниеотвод для р/антенн, да задачку о шлаке, ну еще пару- другую своих и Альтшуллеровских.<br />
+    А до нескольких трендов в этой задаче руки не дошли. Я два года последних книжки писал, для студентов, 2 штуки написал по 300 страниц (в печатном виде) каждая.<br />
+<blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">GIP</em> wrote: </div>Но она у Вас оторвана от диалектики, тогда как место "ИИ" - именно в ней.</blockquote>Знаете, что на это скажу?  Не оторвана она от диалектики. :)<br />
+50% Вашего мнения и 50% моего, жить можно. :)</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18378"></a>
+<article class="comment odd clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18378#comment-18378" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-11T19:32:37Z"><span class="date-time">ср, 11/05/2011 - 19:32</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">Gregory Frenklach</em> wrote: </div>Точка-&gt;линия-&gt;плоскость-&gt;объём, величина-&gt;скорость изменения величины-&gt;ускорение изменения величины - это первые кандидаты.<br />
+Но если бы этим ограничивалось не стоило бы даже упоминать.<br />
+Интереснее получается если наложить таблицу размерностей (относительную, а не абсолютную) на эти тренды.<br />
+Такое сочетание указывает с одной стороны точнее, что надо менять, а с другой стороны выводит за границы временного или пространственного тренда в ТРИЗ.<br />
+Есть о чём подумать и инструмент может получиться весьма и весьма прикладным.</blockquote>Если бы Вы или кто еще, этим бы занялись, я был бы только рад. Для того и публиковал. Видите рациональное зерно, копайте дальше :) Я диссертацию тризовскую не собираюсь защищать. Скажу по секрету, у меня даже 1-го разряда нету. Не аттестованный я. :)  А там вроде 500 долларов надо. А это  моя зарплата за месяц. Ей-богу, жалко. :)</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18379"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18379#comment-18379" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">Александр Кудрявцев</span> on <time datetime="2011-05-11T19:34:00Z"><span class="date-time">ср, 11/05/2011 - 19:34</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p>500 д - это за мастера.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18380"></a>
+<article class="comment odd clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18380#comment-18380" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-11T20:11:37Z"><span class="date-time">ср, 11/05/2011 - 20:11</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">Александр Кудрявцев</em> wrote: </div><blockquote class="quote-msg quote-nest-2 even"><div class="quote-author"><em class="placeholder">Gregory Frenklach</em> wrote: </div>Точка-&gt;линия-&gt;плоскость-&gt;объём, величина-&gt;скорость изменения величины-&gt;ускорение изменения величины - это первые кандидаты.<br />
+Но если бы этим ограничивалось не стоило бы даже упоминать.<br />
+...<br />
+Есть о чём подумать и инструмент может получиться весьма и весьма прикладным.</blockquote><br />
+Да, если получится из таблицы вытащить еще некоторое количество трендов, подобных описанным, но не таих известных, то таблица уже оправдает себя.<br />
+Уважаемый Александр Борисович, не могли бы Вы помочь в этом вопросе?</blockquote>Так берите тренд либо горизонтальный, либо вертикальный, либо диагональный, любой. Какая помощь тут нужна?<br />
+   А методика какая тут может быть? Что-то по аналогии можно точке-линии- поверхности- объему. Пока так вижу. Например, сила-поверхностное натяжение- давление- градиент давления.<br />
+ Взаимодействие инструмента и изделия, когда инструмент - поле давления. Получается давление в точке (сила), по линии (поверхностное натяжение), собственно давление (сила по площади), градиент давления (сила по объему). Конкретное свойство ресурса, распределенное по пространству.<br />
+То же самое и по времени. Например, статическое давление, давление с постоянной скоростью, с постоянным ускорением и т.д.</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18381"></a>
+<article class="comment even clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18381#comment-18381" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-11T20:20:42Z"><span class="date-time">ср, 11/05/2011 - 20:20</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">Александр Кудрявцев</em> wrote: </div>500 д - это за мастера.</blockquote> Все равно жалко.:) Я и так к.т.н., мне хватит. :)  А там пусть молодые напирают, им надо. А я уж как-нибудь, по старинке. Единственное, жалко нет такой гос. специальности "изобретательство", может, тогда бы на докторскую замахнулся, да и то, уж теперь и не знаю. Здоровье дороже. :)</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+<a id="comment-18383"></a>
+<article class="comment odd last clearfix">
+
+  
+      <header class="comment-header">
+    <h3 class="comment-title"><a href="/comment/18383#comment-18383" rel="bookmark">Re: Использование генетических алгоритмов для решения ...</a></h3>
+      </header>
+    
+  <footer class="submitted">
+    <p class="author-datetime">Submitted by <span class="username">ABB</span> on <time datetime="2011-05-11T20:58:29Z"><span class="date-time">ср, 11/05/2011 - 20:58</span></time></p>
+  </footer>
+
+  <div class="comment-content">
+        <div class="field field-name-comment-body field-type-text-long field-label-hidden view-mode-full"><div class="field-items"><div class="field-item even"><p><blockquote class="quote-msg quote-nest-1 odd"><div class="quote-author"><em class="placeholder">priven</em> wrote: </div>Здесь бы очень хотелось увидить какой-нибудь нетривиальный пример, когда смещение по таблице дало бы интересный результат, не вытекающий из простого дифференцирования величин. Пример с ампулами, сказать по правде, меня пока еще не сильно убедил: то ли там в выводе какие-то неочевидные для меня звенья опущены, то ли что-то еще, но (чисто субъективно - по ощущениям) очень похоже на "подгонку под заранее заданный результат", а не на "решение, найденое по методике". А здесь, по-моему, тот случай, когда методика могла бы сработать и без подгонки - что и хотелось бы увидеть.Александр.</blockquote><br />
+Я думаю, что в какой-то мере можно таким примером считать задачку о трансформации наших представлений из автобуса в мусоровоз. Это здесь<br /><a href="http://www.metodolog.ru/node/370">http://www.metodolog.ru/node/370</a><br />
+ну, и еще парочку небольших примеров можно найти в <a href="http://www.triz-journal.com/archives/2008/01/02/">http://www.triz-journal.com/archives/2008/01/02/</a> Это на английском. Пример о наклономере, и о пружине (из Альтшуллера). Пока больше ничего нет. :(</p>
+</div></div></div>  </div>
+
+  
+      <nav class="clearfix"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/975%23comment-form">Log in</a> or <a href="/user/register?destination=comment/reply/975%23comment-form">register</a> to post comments</span></li></ul></nav>
+  
+</article>
+
+  
+</section>
+
+  </article>
+
+  </div>                </div>
+              
+              <!-- Feed icons (RSS, Atom icons etc -->
+              <a href="https://www.metodolog.ru/crss/node/975" class="feed-icon" title="Subscribe to Comments for &quot;Использование генетических алгоритмов для решения изобретательских задач&quot;"><img class="image-style-none" src="https://www.metodolog.ru/misc/feed.png" width="16" height="16" alt="Subscribe to Comments for &quot;Использование генетических алгоритмов для решения изобретательских задач&quot;" /></a>
+            </section> <!-- /main-content -->
+
+            
+          </div>
+        </div> <!-- /content-column -->
+
+        <div class="region region-sidebar-first sidebar"><div class="region-inner clearfix"><section id="block-user-login" class="block block-user odd first block-count-6 block-region-sidebar-first block-login"  role="form"><div class="block-inner clearfix">  
+      <h2 class="block-title">Вход</h2>
+  
+  <div class="block-content content"><form action="/node/975?destination=node/975" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Имя пользователя <span class="form-required" title="Это поле необходимо заполнить.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Пароль <span class="form-required" title="Это поле необходимо заполнить.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<div class="item-list"><ul><li class="odd first"><a href="/user/register" title="Создать новую учетную запись пользователя.">Зарегистрироваться</a></li><li class="even last"><a href="/user/password" title="Запросить новый пароль по электронной почте.">Запросить новый пароль</a></li></ul></div><input type="hidden" name="form_build_id" value="form-CE7c18CpSXsLYur-y93XkGZF8EMWfirZjtUqWqqJoBk" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Вход в систему" class="form-submit" /></div></div></form></div>
+  </div></section><nav id="block-system-navigation" class="block block-system block-menu even block-count-7 block-region-sidebar-first block-navigation"  role="navigation"><div class="block-inner clearfix">  
+      <h2 class="block-title">Навигация</h2>
+  
+  <div class="block-content content"><ul class="menu clearfix"><li class="first leaf menu-depth-1 menu-item-1078"><a href="/last_articles" title="Список публикаций в хронологическом порядке">Последние публикации</a></li><li class="leaf menu-depth-1 menu-item-1079"><a href="/forum_recent_activity" title="Темы форума отсортированные по дате добавления последнего комментария">Активность на форуме</a></li><li class="leaf menu-depth-1 menu-item-1082"><a href="/last_comments" title="Список последних комментариев в хронологическом порядке">Последние комментарии</a></li><li class="last collapsed menu-depth-1 menu-item-43"><a href="/forum">Форумы</a></li></ul></div>
+  </div></nav><nav id="block-menu-menu-" class="block block-menu odd block-count-8 block-region-sidebar-first block-menu---------------"  role="navigation"><div class="block-inner clearfix">  
+      <h2 class="block-title">Разделы</h2>
+  
+  <div class="block-content content"><ul class="menu clearfix"><li class="first leaf menu-depth-1 menu-item-96"><a href="/node/125" title="Алфавитный указатель">Алфавитный указатель</a></li><li class="leaf menu-depth-1 menu-item-3219"><a href="/taxonomy/term/21" title="Академия">Академия</a></li><li class="expanded menu-depth-1 menu-item-3220"><a href="/taxonomy/term/22" title="Инструменты">Инструменты</a><ul class="menu clearfix"><li class="first last expanded menu-depth-2 menu-item-3221"><a href="/taxonomy/term/96" title="ТРИЗ">ТРИЗ</a><ul class="menu clearfix"><li class="first last leaf menu-depth-3 menu-item-3222"><a href="/taxonomy/term/97" title="Варианты алгоритмов">Варианты алгоритмов</a></li></ul></li></ul></li><li class="leaf menu-depth-1 menu-item-3223"><a href="/taxonomy/term/228" title="Информация МА ТРИЗ">Информация МА ТРИЗ</a></li><li class="leaf menu-depth-1 menu-item-3407"><a href="/taxonomy/term/468" title="Как продавать ТРИЗ">Как продавать ТРИЗ</a></li><li class="leaf menu-depth-1 menu-item-3224"><a href="/taxonomy/term/23" title="Кафедра прогнозов">Кафедра прогнозов</a></li><li class="leaf menu-depth-1 menu-item-3225"><a href="/taxonomy/term/24" title="Контрольный гвоздь">Контрольный гвоздь</a></li><li class="expanded menu-depth-1 menu-item-3226"><a href="/taxonomy/term/25" title="Конференция">Конференция</a><ul class="menu clearfix"><li class="first leaf menu-depth-2 menu-item-3227"><a href="/taxonomy/term/68" title="Размышления">Размышления</a></li><li class="leaf menu-depth-2 menu-item-3228"><a href="/taxonomy/term/74" title="Статьи и письма &quot;Методологу&quot;">Статьи и письма &quot;Методологу&quot;</a></li><li class="last expanded menu-depth-2 menu-item-3229"><a href="/taxonomy/term/77" title="Форумы и конференции">Форумы и конференции</a><ul class="menu clearfix"><li class="first leaf menu-depth-3 menu-item-3230"><a href="/taxonomy/term/78" title="ASIA TRIZCON2009">ASIA TRIZCON2009</a></li><li class="leaf menu-depth-3 menu-item-3231"><a href="/taxonomy/term/139" title="«Теория и практика решения задач на предприятиях» Москва 2009">«Теория и практика решения задач на предприятиях» Москва 2009</a></li><li class="last leaf menu-depth-3 menu-item-3232"><a href="/taxonomy/term/84" title="ТРИЗ Фест 2009">ТРИЗ Фест 2009</a></li></ul></li></ul></li><li class="leaf menu-depth-1 menu-item-3233"><a href="/taxonomy/term/26" title="Литература">Литература</a></li><li class="expanded menu-depth-1 menu-item-3234"><a href="/taxonomy/term/27" title="Люди">Люди</a><ul class="menu clearfix"><li class="first last expanded menu-depth-2 menu-item-3235"><a href="/taxonomy/term/184" title="zzLab">zzLab</a><ul class="menu clearfix"><li class="first last leaf menu-depth-3 menu-item-3236"><a href="/taxonomy/term/185" title="ZZLab">ZZLab</a></li></ul></li></ul></li><li class="expanded menu-depth-1 menu-item-3238"><a href="/taxonomy/term/28" title="НТИ">НТИ</a><ul class="menu clearfix"><li class="first leaf menu-depth-2 menu-item-3239"><a href="/taxonomy/term/94" title="Выставки новой техники">Выставки новой техники</a></li><li class="last leaf menu-depth-2 menu-item-3240"><a href="/taxonomy/term/104" title="Научно техническая информация">Научно техническая информация</a></li></ul></li><li class="leaf menu-depth-1 menu-item-3237"><a href="/taxonomy/term/336" title="Научно-методический совет МА ТРИЗ">Научно-методический совет МА ТРИЗ</a></li><li class="leaf menu-depth-1 menu-item-3241"><a href="/taxonomy/term/435" title="Обучение">Обучение</a></li><li class="leaf menu-depth-1 menu-item-3242"><a href="/taxonomy/term/29" title="От редактора">От редактора</a></li><li class="leaf menu-depth-1 menu-item-3243"><a href="/taxonomy/term/30" title="Проекты">Проекты</a></li><li class="expanded menu-depth-1 menu-item-3244"><a href="/taxonomy/term/31" title="Работа">Работа</a><ul class="menu clearfix"><li class="first last leaf menu-depth-2 menu-item-3245"><a href="/taxonomy/term/71" title="Истории из жизни">Истории из жизни</a></li></ul></li><li class="leaf menu-depth-1 menu-item-3246"><a href="/taxonomy/term/32" title="Теория">Теория</a></li><li class="leaf menu-depth-1 menu-item-3247"><a href="/taxonomy/term/432" title="Экспертно-методический совет">Экспертно-методический совет</a></li><li class="last leaf menu-depth-1 menu-item-3248"><a href="/taxonomy/term/33" title="Энциклопедия">Энциклопедия</a></li></ul></div>
+  </div></nav><section id="block-block-1" class="block block-block even last block-count-9 block-region-sidebar-first block-1" ><div class="block-inner clearfix">  
+      <h2 class="block-title">Контакты</h2>
+  
+  <div class="block-content content"><ul><li><a href="mailto:metodolog1@yandex.ru">metodolog1@yandex.ru</a></li>
+<li><a href="/contact">Онлайн форма отправки сообщений</a></li>
+</ul></div>
+  </div></section></div></div>        
+      </div>
+    </div> <!-- /columns -->
+
+    
+    <!-- four-4x25 Gpanel -->
+    
+          <footer  id="footer" class="clearfix" role="contentinfo">
+        <div id="footer-inner" class="clearfix">
+          <div class="region region-footer"><div class="region-inner clearfix"><div id="block-block-11" class="block block-block no-title odd first block-count-10 block-region-footer block-11" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><p>Конференции ТРИЗ:  <a href="http://www.metodolog.ru/01032/01032.html">2007</a>   <a href="http://www.metodolog.ru/node/699">2010</a>   <a href="http://www.metodolog.ru/node/1184">2011</a>   <a href="http://www.metodolog.ru/node/1525">2012</a>   <a href="http://www.metodolog.ru/node/1765">2013</a>   <a href="http://www.metodolog.ru/node/1894">2014</a></p>
+</div>
+  </div></div><div id="block-block-4" class="block block-block no-title even block-count-11 block-region-footer block-4" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><!--Openstat-->
+<span id="openstat498180"></span>
+<script type="text/javascript">
+var openstat = { counter: 498180, image: 5081, color: "458efc", next: openstat };
+(function(d, t, p) {
+var j = d.createElement(t); j.async = true; j.type = "text/javascript";
+j.src = ("https:" == p ? "https:" : "http:") + "//openstat.net/cnt.js";
+var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+})(document, "script", document.location.protocol);
+</script>
+<!--/Openstat--></div>
+  </div></div><div id="block-block-6" class="block block-block no-title odd block-count-12 block-region-footer block-6" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><!-- SpyLOG --><script src="http://tools.spylog.ru/counter_cv.js" id="spylog_code" type="text/javascript" counter="498180" part="" track_links="ext" page_level="1">
+</script><noscript>
+<a href="http://u4981.80.spylog.com/cnt?cid=498180&f=3&p=1" target="_blank">
+<img src="http://u4981.80.spylog.com/cnt?cid=498180&p=1" alt="SpyLOG" border="0" width="88" height="31"></a>
+</noscript><!--/ SpyLOG --></div>
+  </div></div><div id="block-block-16" class="block block-block no-title even last block-count-13 block-region-footer block-16" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><p>Copyright © by Metodolog.ru", 2003—2017</p>
+</div>
+  </div></div></div></div>          <p class="attribute-creator"></p>
+        </div>
+      </footer>
+    
+  </div> <!-- /page -->
+</div> <!-- /texture overlay -->
+  </body>
+</html>

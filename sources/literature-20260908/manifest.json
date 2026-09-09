@@ -1,0 +1,76 @@
+{
+  "retrieved_date": "2026-09-08",
+  "records": [
+    {
+      "file": "bushuev-2022-physical-effects.pdf",
+      "source_url": "https://books.ifmo.ru/file/pdf/3113.pdf",
+      "pages": 48,
+      "bytes": 1538298,
+      "sha256": "5645eef57d80e35b4d732fb3c383944cecc271eab5cb3bf36a273c2c7f18df7f"
+    },
+    {
+      "file": "triz-v-razvitii-2023-issue-12.pdf",
+      "source_url": "https://r1.nubex.ru/s828-c8b/f3978_34/%D0%A2%D0%A0%D0%98%D0%97%20%D0%B2%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B8-20-09-2023.pdf",
+      "pages": 327,
+      "article_title_pdf_pages": [
+        4,
+        78
+      ],
+      "article_doi_pdf_pages": [
+        78
+      ],
+      "article_pdf_pages": [
+        78,
+        85
+      ],
+      "bytes": 17423463,
+      "sha256": "83a96882918f1b12312bea779a1daa94e0eb1c9ded46dc78e25fd4bdab79986b"
+    },
+    {
+      "file": "bushuev-2011-genetic-algorithms.original.html",
+      "source_url": "https://www.metodolog.ru/node/975",
+      "kind": "unchanged HTML response",
+      "bytes": 260792,
+      "sha256": "d707a567677fb20b92c24cf68eecc5331d15b4118b232fbc907db141d96fc184"
+    },
+    {
+      "file": "bushuev-2011-genetic-algorithms.offline.html",
+      "source_url": "https://www.metodolog.ru/node/975",
+      "kind": "offline article derivative",
+      "images": [
+        {
+          "url": "https://www.metodolog.ru/sites/default/files/u5/02213-1.JPG",
+          "bytes": 8054,
+          "sha256": "ae43d82056dba80b6484ed4e8093b4f9bdb1f22e246866e39a1b1dc039476241"
+        },
+        {
+          "url": "https://www.metodolog.ru/sites/default/files/u5/02213-2.JPG",
+          "bytes": 5545,
+          "sha256": "8ec5bae992d9335239e80f22048c417ff3039e3f03c5524c1d0f8f9a83a1fc1c"
+        },
+        {
+          "url": "https://www.metodolog.ru/sites/default/files/u5/02213-3.JPG",
+          "bytes": 34211,
+          "sha256": "e0b59ce9038a38c96f6190e598e07725a20c40a91fc22260250a15ad2f5dd48e"
+        },
+        {
+          "url": "https://www.metodolog.ru/sites/default/files/u5/02213-5.JPG",
+          "bytes": 2922,
+          "sha256": "205059e0359d523af1f88033e203c0bf21f9c45bb75143c3fe0813e7356741c1"
+        },
+        {
+          "url": "https://www.metodolog.ru/sites/default/files/u5/02213-4.JPG",
+          "bytes": 1874,
+          "sha256": "03b9572230a0b53fe848a13a05120e84e4e4813b3d4ffe1d99ea2e7d8befb184"
+        },
+        {
+          "url": "https://www.metodolog.ru/sites/default/files/u5/02213-7.JPG",
+          "bytes": 1930,
+          "sha256": "176f728addde1df564bf91743c5859ae49ec8ba1ba7c4369c1ff1c527867f4eb"
+        }
+      ],
+      "bytes": 132226,
+      "sha256": "391cddd26520a62f19cc82146bde2351eb96a5d4c3f868ebccd293419009d740"
+    }
+  ]
+}
