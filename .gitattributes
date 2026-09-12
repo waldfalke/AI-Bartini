@@ -1,2 +1,0 @@
-# Preserve archived sources byte-for-byte, including their line endings.
-/sources/** -text
