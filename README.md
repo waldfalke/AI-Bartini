@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/bartini-header.svg" alt="AI-Bartini. От противоречия к проверяемой идее." width="960">
+  <img src="assets/bartini-human-future.png" alt="Мозаика: люди вместе собирают пространственную модель и устремляют взгляд в будущее." width="960">
 </p>
 
 <p align="center">
